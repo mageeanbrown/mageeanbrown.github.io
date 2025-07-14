@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Maggie"
+subtitle: 'Maggie'
 
 profile:
   align: right
