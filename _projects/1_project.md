@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bicycle Framebuilding
-description: Designing and building a bike frame from scratch
+description: Designing and fabricating a bike frame from scratch
 img: assets/img/12.jpg
 importance: 1
 category: work
