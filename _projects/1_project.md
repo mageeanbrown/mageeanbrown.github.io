@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Bicycle Framebuilding
+description: Designing and building a bike frame from scratch
 img: assets/img/12.jpg
 importance: 1
 category: work
