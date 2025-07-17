@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Bio-inspired Fluid Dynamics
+description: Studying the hydrodynamics of an underwater robot designed using shrimp swimming as inspiration
 img: assets/img/3.jpg
 importance: 2
 category: work
