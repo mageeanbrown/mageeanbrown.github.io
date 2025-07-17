@@ -8,12 +8,13 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project evolved from an independent study project that I did over the course of one semester during undergrad. At the time that I began the project, I had barely used CAD, had very little machining experience, and was just beginning to seriously practice TIG welding. Unsuprisingly, building a bicycle frame from scratch required that I get good at all of these skills. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+By the end of that first semester, I could design my models with ease, and taught myself how to run FEA in Solidworks. I also got much better in the machine shop, and racked up my many hours on the manual mills and lathes, as well as on the CNC mill. But alas, my welding skills were not honed enough to weld the thin bicycle tubing (some tubes are as thin as 0.028 in), so I did not complete the project that semester. 
 
+A year later, and after welding a racecar (see more about this here), I returned to the project with much more fabrication experience. I designed machined a high-precision and adjustable jig, which is essential for holding all the components tightly together during the welding process. Then, after getting the tubes cut according to my CAD design, I was able to fully weld the frame. I also brazed for the first time to attach some of the smaller components, like the water bottle bosses.
+
+Unfortunately, I had to leave this project at home when I moved from New York to California. The rest of the components still need to be assembled, but I am very proud of how the frame turned out!
     ---
     layout: page
     title: project
