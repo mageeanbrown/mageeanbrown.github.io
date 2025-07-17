@@ -446,7 +446,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bicycle-framebuilding",
           title: 'Bicycle Framebuilding',
-          description: "Designing and building a bike frame from scratch",
+          description: "Designing and fabricating a bike frame from scratch",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
