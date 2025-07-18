@@ -30,7 +30,7 @@ Unfortunately, I had to leave this project at home when I moved across the count
         {% include figure.liquid loading="eager" path="assets/img/fea_frame.png" title="fea" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/chip.jpg" title="chips" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/chips.jpg" title="chips" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
