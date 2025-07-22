@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Bio-inspired Fluid Dynamics
-description: Studying the hydrodynamics of an underwater robot designed using shrimp swimming as inspiration
+title: Brown Formula Racing Subsystems
+description: Leading the design and fabrication of the chassis and steering subsystems
 img: assets/img/3.jpg
 importance: 2
 category: work
