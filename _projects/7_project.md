@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Bio-inspired Fluid Dynamics
+description: Studying the hydrodynamics of an underwater robot with a shrimp-inspired design
 img: assets/img/4.jpg
 importance: 1
 category: work
