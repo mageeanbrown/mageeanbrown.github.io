@@ -444,9 +444,9 @@ ninja.data = [{
           description: "Studying the hydrodynamics of an underwater robot with a shrimp-inspired design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-wearable-hand-tremor-attenuator",
+          title: 'Wearable Hand Tremor Attenuator',
+          description: "Developing a wrist-watch-like electromechanical device to actively reduce hand tremors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
