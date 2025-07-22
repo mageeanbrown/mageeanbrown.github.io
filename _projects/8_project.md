@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Wearable Hand Tremor Attenuator
+description: Developing a wrist-watch-like electromechanical device to actively reduce hand tremors.
+img: assets/img/TRUhold.jpg
 importance: 2
 category: work
 giscus_comments: true
