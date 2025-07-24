@@ -419,9 +419,9 @@ ninja.data = [{
           description: "Leading the design and fabrication of the chassis and steering subsystems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-brown-formula-racing-subsystems",
-          title: 'Brown Formula Racing Subsystems',
-          description: "Leading the design and fabrication of the chassis and steering system",
+            },},{id: "projects-marine-biomechanics-study",
+          title: 'Marine Biomechanics Study',
+          description: "Studying the mixing and thermal regulation of oyster shells",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-brown-formula-racing-subsystems",
