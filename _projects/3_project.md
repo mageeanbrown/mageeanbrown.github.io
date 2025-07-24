@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Brown Formula Racing Subsystems
-description: Leading the design and fabrication of the chassis and steering system
+title: Marine Biomechanics Study
+description: Studying the mixing and thermal regulation of oyster shells
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
