@@ -419,8 +419,8 @@ ninja.data = [{
           description: "Leading the design and fabrication of the chassis and steering subsystems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-marine-biomechanics-study",
-          title: 'Marine Biomechanics Study',
+            },},{id: "projects-marine-biomechanics",
+          title: 'Marine Biomechanics',
           description: "Studying the mixing and thermal regulation of oyster shells",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
