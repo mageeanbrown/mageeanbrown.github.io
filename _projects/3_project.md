@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Marine Biomechanics Study
+title: Marine Biomechanics
 description: Studying the mixing and thermal regulation of oyster shells
-img: assets/img/7.jpg
+img: assets/img/oyster.jpg
 importance: 3
 category: work
 ---
