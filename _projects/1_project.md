@@ -2,7 +2,7 @@
 layout: page
 title: Bicycle Framebuilding
 description: Designing and fabricating a bike frame from scratch
-img: assets/img/12.jpg
+img: assets/img/frame_jig.jpg
 importance: 1
 category: work
 related_publications: true
@@ -15,12 +15,6 @@ By the end of that first semester, I could design my models with ease, and taugh
 A year later, and after welding a racecar (see more about this here), I returned to the project with much more fabrication experience. I designed machined a high-precision and adjustable jig, which is essential for holding all the components tightly together during the welding process. Then, after getting the tubes cut according to my CAD design, I was able to fully weld the frame. I also brazed for the first time to attach some of the smaller components, like the water bottle bosses.
 
 Unfortunately, I had to leave this project at home when I moved across the country for grad school. The rest of the components still need to be assembled, but I am very proud of how the frame turned out!
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,7 +32,7 @@ Unfortunately, I had to leave this project at home when I moved across the count
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/jig_progress.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
