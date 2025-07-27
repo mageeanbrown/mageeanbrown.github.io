@@ -2,7 +2,7 @@
 layout: page
 title: Brown Formula Racing Subsystems
 description: Leading the design and fabrication of the chassis and steering subsystems
-img: assets/img/3.jpg
+img: assets/img/table_welding.jpg
 importance: 2
 category: work
 giscus_comments: true
