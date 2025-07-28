@@ -34,13 +34,14 @@ Unfortunately, I had to leave this project at home when I moved across the count
 Below, you'll see some of my more recent welds (getting better, but still more practice to be done!) and the frame post-welding/brazing. The final steps will involve painting the frame, facing and reaming the frame (to remove distortion from welding in important areas, such as the bottom bracket shell, head tube, and seat tube), and buying/installing the remaining parts to make the bike ready for riding.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/welding_improvements.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/finished_frame.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
     My welding progress on the left and the fully welded frame on the right.
 </div>
