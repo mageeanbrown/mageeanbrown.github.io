@@ -43,10 +43,10 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 </div>
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/torsion_physical_setup.jpg" title="torsion test" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/torsion_test.jpg" title="physical testing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
