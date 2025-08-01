@@ -8,11 +8,11 @@ category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I joined the Brown Formula Racing during my sophomore year of undergrad. Each year, the team builds a racecar from scratch, using an internal combustion engine. The team then competes at FSAE Michigan each May, which is a competition consisting of universities across the world. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+During my first year on the team, I got a flavor of the many subsystems, starting with attaching connectors on the wiring harness, sanding composite molds, and making some simple parts in the machine shop. In my junior year (2023), after gaining some design and fabrication experience, I was put in charge of the steering system of system. While we used a relatively simple rack and pinion steering system, designing the steering geometry such that it can interact with the suspension properly, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, and needed to make sure that my subsystem was fully designed and modeled in our Solidworks assembly early on. 
+
+Below are images of the assembly and some FEA that I ran on the bearing housing that the upper steering shaft sits in. I also ran many FEA simulations on the joint that connects two shaft pieces together. For these parts, it is mostly torque and lateral forcing from the driver applied at the steering wheel that is important to look at. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
