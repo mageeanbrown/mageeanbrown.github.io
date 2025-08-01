@@ -12,7 +12,24 @@ I joined the Brown Formula Racing during my sophomore year of undergrad. Each ye
 
 During my first year on the team, I got a flavor of the many subsystems, starting with attaching connectors on the wiring harness, sanding composite molds, and making some simple parts in the machine shop. In my junior year (2023), after gaining some design and fabrication experience, I was put in charge of the steering system of system. While we used a relatively simple rack and pinion steering system, designing the steering geometry such that it can interact with the suspension properly, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, and needed to make sure that my subsystem was fully designed and modeled in our Solidworks assembly early on. 
 
-Below are images of the assembly and some FEA that I ran on the bearing housing that the upper steering shaft sits in. I also ran many FEA simulations on the joint that connects two shaft pieces together. For these parts, it is mostly torque and lateral forcing from the driver applied at the steering wheel that is important to look at. 
+Below are images of the assembly and some FEA that I ran on the bearing housing that the upper steering shaft sits in. I also ran many FEA simulations on the joint that connects the two shaft pieces. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/steering2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/steering1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/steering_fea.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   On the left, the steering mount, which is one point of attachment between the steering system and chassis. This was one of my first car-worthy welding projects. In the middle, the bearing housing is the trapezoidal aluminum piece, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. The steering wheel (removable for quick  driver egress) attaches on the spline that is also in the image. On the right, FEA of the bearing housing is shown. 
+</div>
+
+My senior year (2024), I become a co-caption of the chassis subsystem with one other member. This is a relatively large and complicated part of the car, as it involves designing and fabricated the entire frame of the car, and doing any other welding that subsystems require. This system is also the first one that is mostly-complete in the year, as every other subsystem needs to mount and test their parts on the chassis. Because of this, we start some of the design and simulation process by late summer so we can order our tubes (we get them coped out-of-house) and get everything jigged, and then welded by February.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
