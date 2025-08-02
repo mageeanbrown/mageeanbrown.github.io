@@ -55,18 +55,15 @@ Below are some images from the design, testing, and fabrication of the car which
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-4 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/rearbay.jpg" title="rear bay" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/car_testing.jpg" title="putting on tabs" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/car_welded.jpg" title="testing day" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-8 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/finished_car.jpg" title="finished car" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Welding progress (left, middle) and some suspension adjustments during an initial driving test day for the car (right). 
+    Welding progress (left) and the finished 2024 car (right), "Rhode Rage".
 </div>
 
 <div class="row">
