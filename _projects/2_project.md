@@ -55,10 +55,10 @@ Below are some images from the design, testing, and fabrication of the car which
 </div>
 
 <div class="row">
-    <div class="col-sm mt-4 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rearbay.jpg" title="rear bay" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/car_welded.jpg" title="rear bay" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-8 mt-md-0">
+    <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/finished_car.jpg" title="finished car" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
