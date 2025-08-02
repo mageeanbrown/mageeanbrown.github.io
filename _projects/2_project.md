@@ -8,9 +8,9 @@ category: work
 giscus_comments: true
 ---
 
-I joined the Brown Formula Racing during my sophomore year of undergrad. Each year, the team builds a racecar from scratch, using an internal combustion engine. The team then competes at FSAE Michigan each May, which is a competition consisting of universities across the world. 
+I joined the Brown Formula Racing during my sophomore year of undergrad. Each year, the team builds a racecar from scratch. The team then competes at FSAE Michigan each May, which is a competition consisting of universities across the world. 
 
-During my first year on the team, I got a flavor of the many subsystems, starting with attaching connectors on the wiring harness, sanding composite molds, and making some simple parts in the machine shop. In my junior year (2023), after gaining some design and fabrication experience, I was put in charge of the steering system of system. While we used a relatively simple rack and pinion steering system, designing the steering geometry such that it can interact with the suspension properly, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, and needed to make sure that my subsystem was fully designed and modeled in our Solidworks assembly early on. 
+During my junior year (2023), I was responsible for the steering system of the car. While we used a relatively simple rack and pinion steering system, designing the steering geometry to properly interact with the suspension, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, which was a great experience in working with other people with different areas of expertise.
 
 Below are images of the assembly and some FEA that I ran on the bearing housing that the upper steering shaft sits in. I also ran many FEA simulations on the joint that connects the two shaft pieces. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
 
@@ -26,37 +26,20 @@ Below are images of the assembly and some FEA that I ran on the bearing housing 
     </div>
 </div>
 <div class="caption">
-   On the left, the steering mount, which is one point of attachment between the steering system and chassis. This was one of my first car-worthy welding projects. In the middle, the bearing housing is the trapezoidal aluminum piece, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. The steering wheel (removable for quick  driver egress) attaches on the spline that is also in the image. On the right, FEA of the bearing housing is shown. 
+   On the left, the steering mount, which is one point of attachment between the steering system and chassis. This was one of my first car-worthy welding projects (apologies for the subpar-looking welds). In the middle, the bearing housing is the trapezoidal aluminum piece, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. I machined this part mostly manually, except for a groove that I CNC machined for a bearing retaining ring.  The steering wheel (removable for quick  driver egress) attaches on the spline that is also in the image. On the right, FEA of the bearing housing is shown. 
 </div>
 
-My senior year (2024), I become a co-caption of the chassis subsystem with one other member. This is a relatively large and complicated part of the car, as it involves designing and fabricated the entire frame of the car, and doing any other welding that subsystems require. This system is also the first one that is mostly-complete in the year, as every other subsystem needs to mount and test their parts on the chassis. Because of this, we start some of the design and simulation process by late summer so we can order our tubes (we get them coped out-of-house) and get everything jigged, and then welded by February.
+My senior year (2024), I became a co-lead of the chassis subsystem with one other member. This subsystem involves designing and fabricating the entire frame of the car and any other welding that subsystems require. This is also one of the first subsystems that need to be completed in the year, as every other subsystem mounts and test their parts on the chassis. Because of this, we start some of the design and simulation process by late summer so we can order our tubes (we get them coped out-of-house) and get everything jigged, and then welded by February. After welding is complete, we do physical testing to verify our simulations, such as validation of torsional stiffness estimates. 
+
+Below are some images from the design, testing, and fabrication of the car which took place over many, many months!
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rearbay.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mx-auto">
+        {% include figure.liquid loading="eager" path="assets/img/iteration_of_chass.png" title="Chassis Iterations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/iteration_of_chass.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    An example of the iteration process that occurs during the design and simulation phase of the project. Typically, there is a trade-off between high torsional stiffness and weight, so we optimize these variables as best as we can to get a light but stiff chassis.
 </div>
 
 <div class="row justify-content-sm-center">
@@ -68,7 +51,22 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The physical testing setup we used to validate the torsional stiffness calculated from simulations (left) and the results (right). For the physical testup, we use machining gauges at three locations along the length of the chassis (one on each side, 6 gauges total) and measure the deflection at each point while jacking up the left front wheel of the car. From this, we were able to determine the torsional stiffness between different locations of the car, which matched up relatively well with our simulations!
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/rearbay.jpg" title="rear bay" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/car_testing.jpg" title="putting on tabs" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/car_welded.jpg" title="testing day" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Welding progress (left, middle) and some suspension adjustments during an initial driving test day for the car (right). 
 </div>
 
 <div class="row">
@@ -80,22 +78,3 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     My co-subsystem lead and I holding the chassis before sending it off to get its powder coat. The week before was spent welding almost around the clock to get the chassis done before spring classes started up.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
