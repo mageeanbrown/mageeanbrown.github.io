@@ -7,18 +7,18 @@ importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+For this project, I studied the biomechanics of oysters as part of the Marine Biomechanics course at Friday Harbor Laboratories in Washington. Specifically, I explored how shelf-like extrusions on the shell, called flutes, influence the hydrodynamics of the environment surrounding oysters, in addition to how fluting affects temperature regulation. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Flutes are illustrated in the figure below. Interestingly, oysters of the same species (here, the Pacific Oyster) may or may not exhibit fluting.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fluting_oyster.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+Flutes, or shelves that are concentric with growth lines on the shell, are outlined in grey. Flute amplitude is defined in (a) as the height of each flute, or shelf. In (b), a side view of overhanging flutes is shown. Overhanging flutes are those in which a flute underside is visible. Another perspective (facing the fringe of the oyster) of overhanging flutes is shown in (c).
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
