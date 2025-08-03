@@ -5,7 +5,7 @@ description: Leading the design and fabrication of the chassis and steering subs
 img: assets/img/table_welding.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 I joined the Brown Formula Racing during my sophomore year of undergrad. Each year, the team builds a racecar from scratch. The team then competes at FSAE Michigan each May, which is a competition consisting of universities across the world. 
