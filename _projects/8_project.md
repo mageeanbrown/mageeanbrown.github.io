@@ -14,9 +14,6 @@ Since we were unable to test our device on actual patients (the process of getti
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FinalFinal4Hz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/FinalFinal5Hz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -24,7 +21,7 @@ Since we were unable to test our device on actual patients (the process of getti
     </div>
 </div>
 <div class="caption">
-    Accelerometer data from testing the device at 4 Hz, 5 Hz, and 6 Hz. In all cases, there was a significant reduction in tremor amplitude with the device on. For future iterations of the design, we plan to tune the PID control system for better results.
+    Accelerometer data from testing the device at 5 Hz and 6 Hz. In all cases, there was a significant reduction in tremor amplitude with the device on. For future iterations of the design, we plan to tune the PID control system for better results.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
