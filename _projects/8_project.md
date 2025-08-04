@@ -5,21 +5,12 @@ description: Developing a wrist-watch-like electromechanical device to actively 
 img: assets/img/TRUhold.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This was my senior capstone project during undergrad. I worked with a group of 5 friends to design and prototype a wearable device that can reduce hand tremors, specifically targeting Parkinson's disease patients. Throughout this project, we had many conversations with over 20 medical professionals to determine what design features would be the most valuable for their patients. Eventually, we decided upon a design that uses the principle of destructive interference of waves. Since tremors cause the hand to move in approximately a sinusoidal pattern, our system utilizes a controllable mass that moves at a 180-degree phase offset from the tremor itself. Two back-to-back solenoids were used to control the movement of the mass (in this case, the mass is a magnet core), and we used feedback from an accelerometer to infer the frequency and phase of the tremor.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Since we were unable to test our device on actual patients (the process of getting approval for this could not be completed in a semester), we created a tremor simulator using an eccentric mass attached to a small motor, which could also be worn on the wrist. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
