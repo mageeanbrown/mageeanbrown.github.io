@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 9
-description: Miscellaneous Mini-Projects
-img: assets/img/hangboard.jpg
+title: Miscellaneous Mini-Projects
+description: Machining, woodworking, and 3D printing
+img: assets/img/hammer.jpg
 importance: 4
 category: work
 ---
