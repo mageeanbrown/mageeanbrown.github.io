@@ -424,11 +424,6 @@ ninja.data = [{
           description: "Studying the mixing and thermal regulation of oyster shells",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-brown-formula-racing-subsystems",
-          title: 'Brown Formula Racing Subsystems',
-          description: "Leading the design and fabrication of the chassis and steering subsystem",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
