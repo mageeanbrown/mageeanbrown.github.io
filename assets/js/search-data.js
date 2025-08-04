@@ -434,9 +434,9 @@ ninja.data = [{
           description: "Developing a wrist-watch-like electromechanical device to actively reduce hand tremors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "Miscellaneous Mini-Projects",
+            },},{id: "projects-miscellaneous-mini-projects",
+          title: 'Miscellaneous Mini-Projects',
+          description: "Machining, woodworking, and 3D printing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
