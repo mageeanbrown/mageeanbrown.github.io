@@ -21,8 +21,21 @@ Since we were unable to test our device on actual patients (the process of getti
     </div>
 </div>
 <div class="caption">
-    Accelerometer data from testing the device at 5 Hz and 6 Hz. In all cases, there was a significant reduction in tremor amplitude with the device on. For future iterations of the design, we plan to tune the PID control system for better results.
+    Accelerometer data from testing the device at 5 Hz and 6 Hz. In all cases, there was a significant reduction in tremor amplitude with the device on. For future iterations of the design, we plan to better tune the PID control system to improve attenuation.
 </div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/rubber_test.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/arm_test.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Testing our tremor simulator (in black housing) on an artificial (left) and actual arm (right). The accelerometer is attached to the arm/hand in both images to measure the simulated tremor frequency.
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
