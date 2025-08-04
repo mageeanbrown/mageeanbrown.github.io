@@ -2,7 +2,7 @@
 layout: page
 title: project 9
 description: Miscellaneous Mini-Projects
-img: assets/img/6.jpg
+img: assets/img/hangboard.jpg
 importance: 4
 category: work
 ---
