@@ -23,11 +23,26 @@ This is a collection of various small projects that I've done throughout the yea
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/on_printer.jpg" title="3D print" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/glued_up.jpg" title="Finished prints" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Some technical resin 3D prints I made for a research project that I was helping a grad student with while at Brown. The project was to recreate a scaled-up model of shrimp appendages with varying degrees of detail. For the most detailed structure, there were hair-like structures that were virtually impossible to print with conventional 3D printing techniques. To make the print successful using a $250 printer, I had to slice the model into 7 pieces, which allowed me to orient each piece separately, then 'glue' (with resin) and sand the model as the final step.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hammer.jpg" title="3D print" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jump.jpg" title="Finished prints" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, a mallet that I machined (all the metal pieces). On the right, the frame for part of a no-snow ski jump I built. 
 </div>
 
 You can also put regular text between your rows of images.
@@ -46,8 +61,4 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
     Two welding sculptures I made for different classes during undergrad. On the right is the rickshaw driver I made as part of a project for my Urban Studies class, and on the right, is an abstract human scupture I made for a modern culture and media course focused on environmental policy.  
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
