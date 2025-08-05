@@ -14,18 +14,6 @@ Since we were unable to test our device on actual patients (the process of getti
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FinalFinal5Hz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/FinalFinal6Hz.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Accelerometer data from testing the device at 5 Hz and 6 Hz. In all cases, there was a significant reduction in tremor amplitude with the device on. For future iterations of the design, we plan to better tune the PID control system to improve attenuation.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/rubber_test.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -37,27 +25,41 @@ Since we were unable to test our device on actual patients (the process of getti
 </div>
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/circuitDiagramSolenoidControl.jpg" title="Circuit diagram" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/full_device.jpg" title="Tremor device" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    On the right, a circuit diagram of our device. On the right, the tremor attenuator (white housing), accelerometer, and tremor simulator (black housing) on a hand. 
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/FinalFinal5Hz.jpg" title="5 Hz data" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/FinalFinal6Hz.jpg" title="6 Hz data" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Accelerometer data from testing the device at 5 Hz and 6 Hz. In all cases, there was a significant reduction in tremor amplitude with the device on. For future iterations of the design, we plan to better tune the PID control system to improve attenuation.
+</div>
+
+
+Reducing the overall size of the device not something we had time for during the semester, but we understand is an important consideration for patients. Because of this, we created a "looks-like" prototype. The prototype is designed based on the dimensions of a piezoelectric micro linear actuator we would like to use in the future (it was beyond our current budget), as well as a standard battery pack that would allow the device to function all day without charging. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/looks_like_prototype.jpg" title="looks-like prototype" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/looks_like_arm.jpg" title="looks-like prototype on arm" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The "looks-like" prototype of our device.
 </div>
 
