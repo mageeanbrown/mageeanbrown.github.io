@@ -35,10 +35,10 @@ This is a collection of various small projects that I've done throughout the yea
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hammer.jpg" title="3D print" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/hammer.jpg" title="Machined hammer" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jump.jpg" title="Finished prints" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/jump.jpg" title="Ski jump" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
