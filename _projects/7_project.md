@@ -17,17 +17,17 @@ Anyway, here are some fun photos of the research process!
 The rest of this page is under construction. Check out some other projects in the meantime.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/pleopod.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/small_tank.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/particles.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, an initial PLA 3D-printed prototype of the shrimp pleopod. To better tune the buoyancy of the model, I switched to 3D printing with resin. In the middle, a view of the first experimental setup (eventually the tank size was increased) using particle image velocimetry (PIV). On the right, a closer view of the particles used during PIV. These particles are illuminated with a laser and tracked using a cross-correlation algorithm during analysis of video taken during experiments.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
