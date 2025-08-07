@@ -12,7 +12,7 @@ I joined the Brown Formula Racing during my sophomore year of undergrad. Each ye
 
 During my junior year (2023), I was responsible for the steering system of the car. While we used a relatively simple rack and pinion steering system, designing the steering geometry to properly interact with the suspension, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, which was a great experience in working with other people with different areas of expertise.
 
-Below are images of the assembly and some FEA that I ran on the bearing housing that the upper steering shaft sits in. I also ran many FEA simulations on the joint that connects the two shaft pieces. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
+Below are images of the assembly and some FEA that I ran on the upper steering shaft, which connects the steering column with the steering wheel components. I also ran many FEA simulations on the bearing housing, which helps hold the steering shaft in place while allowing rotation. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -26,7 +26,8 @@ Below are images of the assembly and some FEA that I ran on the bearing housing 
     </div>
 </div>
 <div class="caption">
-   On the left, the steering mount, which is one point of attachment between the steering system and chassis. This was one of my first car-worthy welding projects (apologies for the subpar-looking welds). In the middle, the bearing housing is the trapezoidal aluminum piece, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. I machined this part mostly manually, except for a groove that I CNC machined for a bearing retaining ring.  The steering wheel (removable for quick  driver egress) attaches on the spline that is also in the image. On the right, FEA of the bearing housing is shown. 
+   On the left, the steering mount, which is one point of attachment between the steering system and chassis. This was one of my first car-worthy welding projects (apologies for the subpar-looking welds). In the middle, the bearing housing is the trapezoidal aluminum piece, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. I machined this part mostly manually, except for a groove that I CNC machined for a bearing retaining ring.  The steering wheel (removable for quick  driver egress) attaches on the spline that is also in the image. On the right, FEA of the upper shaft is shown. The primary hole shown is for electrical wires to exit.
+    
 </div>
 
 My senior year (2024), I became a co-lead of the chassis subsystem with one other member. This subsystem involves designing and fabricating the entire frame of the car and any other welding that subsystems require. This is also one of the first subsystems that need to be completed in the year, as every other subsystem mounts and test their parts on the chassis. Because of this, we start some of the design and simulation process by late summer so we can order our tubes (we get them coped out-of-house) and get everything jigged, and then welded by February. After welding is complete, we do physical testing to verify our simulations, such as validation of torsional stiffness estimates. 
