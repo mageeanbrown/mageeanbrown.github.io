@@ -16,13 +16,13 @@ Below are images of the assembly and some FEA that I ran on the upper steering s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/steering2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/steering2.jpg" title="steering mount" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/steering1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/steering1.jpg" title="bearing housing and mount" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/steering_fea.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/steering_fea.jpg" title="FEA of upper shaft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -36,7 +36,7 @@ Below are some images from the design, testing, and fabrication of the car which
 
 <div class="row">
     <div class="col-sm-8 mx-auto">
-        {% include figure.liquid loading="eager" path="assets/img/iteration_of_chass.png" title="Chassis Iterations" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/iteration_of_chass.png" title="chassis iterations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -52,7 +52,7 @@ Below are some images from the design, testing, and fabrication of the car which
     </div>
 </div>
 <div class="caption">
-    The physical testing setup we used to validate the torsional stiffness calculated from simulations (left) and the results (right). For the physical testup, we use machining gauges at three locations along the length of the chassis (one on each side, 6 gauges total) and measure the deflection at each point while jacking up the left front wheel of the car. From this, we were able to determine the torsional stiffness between different locations of the car, which matched up relatively well with our simulations!
+    The physical testing setup (left) we used to validate the torsional stiffness calculated from simulations and the results (right). For the physical testup, we use machining gauges at three locations along the length of the chassis (one on each side, 6 gauges total) and measure the deflection at each point while jacking up the left front wheel of the car. From this, we were able to determine the torsional stiffness between different locations of the car, which matched up relatively well with our simulations!
 </div>
 
 <div class="row">
