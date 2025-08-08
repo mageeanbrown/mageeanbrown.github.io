@@ -14,12 +14,12 @@ This is a project that I worked on in the Wilhelmus Lab at Brown University. I w
 
 Anyway, here are some fun photos/figures from the research process!
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/methods.png" title="cupping angle depiction" class="img-fluid rounded z-depth-1" %}
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid path="assets/img/methods.png" title="cupping angle depiction" class="row-img rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/exploded_view.jpg" title="bearing exploded view" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        {% include figure.liquid path="assets/img/exploded_view.jpg" title="bearing exploded view" class="row-img rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
