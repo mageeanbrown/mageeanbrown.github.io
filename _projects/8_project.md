@@ -60,6 +60,6 @@ Reducing the overall size of the device not something we had time for during the
     </div>
 </div>
 <div class="caption">
-    The "looks-like" prototype of our device.
+    The "looks-like" prototype of our device. The device uses a rechargable battery pack with a large enough capacity to work all day.
 </div>
 
