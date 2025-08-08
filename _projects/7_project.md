@@ -16,13 +16,13 @@ Anyway, here are some fun photos of the research process!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pleopod.jpg" title="example image" class="img-fluid rounded z-depth-1" style="transform: rotate(-90deg); %}
+        {% include figure.liquid loading="eager" path="assets/img/pleopod.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/small_tank.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/particles.jpg" title="example image" class="img-fluid rounded z-depth-1" style="transform: rotate(-90deg); %}
+        {% include figure.liquid loading="eager" path="assets/img/particles.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -30,11 +30,11 @@ Anyway, here are some fun photos of the research process!
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/vorticity_fields.png" title="vorticity fields" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. There are coherent leading-edge vortices (LEVs) that enhance lift generation.
 </div>
 
 Descriptions...
