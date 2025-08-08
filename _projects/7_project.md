@@ -34,7 +34,7 @@ Anyway, here are some fun photos of the research process!
     </div>
 </div>
 <div class="caption">
-    A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. There are coherent leading-edge vortices (LEVs) that enhance lift generation.
+    A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. The color bar shows the magnitude of vorticity, and streamlines are also plotted. There are coherent leading-edge vortices (LEVs) that enhance lift generation.
 </div>
 
 Descriptions...
