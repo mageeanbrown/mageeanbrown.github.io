@@ -54,7 +54,7 @@ This is a collection of various small projects that I've done throughout the yea
     </div>
 </div>
 <div class="caption">
-    Two welding sculptures I made for different classes during undergrad. On the right is the rickshaw driver I made as part of a project for my Urban Studies class, and on the right, is an abstract human scupture I made for a modern culture and media course focused on environmental policy.  
+    Two welding sculptures I made for different classes during undergrad. On the left, a rickshaw driver I made as part of a project for my Urban Studies class. On the right, an abstract human sculpture I made for a modern culture and media course focused on environmental policy.  
 </div>
 
 
