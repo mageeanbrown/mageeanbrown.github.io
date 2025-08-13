@@ -9,9 +9,21 @@ category: work
 
 This page is under construction and will be updated soon!
 
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid path="assets/img/exp_illus.png" title="Experimental Illustration" class="row-img rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid path="assets/img/exp_setup.jpg" title="Actual Setup" class="row-img rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, an illustration of the experimental setup. On the right, an image of the experimental setup using a 6-foot glass tube.
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/exp_illus.png" title="Experimental Setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/exp_llus.png" title="Experimental Setup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/piv.jpg" title="Laser Sheet" class="img-fluid rounded z-depth-1" %}
