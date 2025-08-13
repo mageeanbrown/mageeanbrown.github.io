@@ -439,6 +439,11 @@ ninja.data = [{
           description: "Machining, woodworking, and 3D printing",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-high-reynolds-number-pipe-flow",
+          title: 'High Reynolds Number Pipe Flow',
+          description: "Studying the laminar to turbulent transition in pipe flows.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pipe_flow/";
             },},{
         id: 'social-email',
         title: 'email',
