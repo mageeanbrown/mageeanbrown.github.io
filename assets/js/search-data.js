@@ -413,32 +413,32 @@ ninja.data = [{
           title: 'Bicycle Framebuilding',
           description: "Designing and fabricating a bike frame from scratch",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-brown-formula-racing-subsystems",
-          title: 'Brown Formula Racing Subsystems',
-          description: "Leading the design and fabrication of the chassis and steering subsystems",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-marine-biomechanics",
-          title: 'Marine Biomechanics',
-          description: "Studying the mixing and thermal regulation of oyster shells",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/projects/bike/";
             },},{id: "projects-bio-inspired-fluid-dynamics",
           title: 'Bio-inspired Fluid Dynamics',
           description: "Studying the hydrodynamics of an underwater robot with a shrimp-inspired design",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
+              window.location.href = "/projects/bio-inspired/";
+            },},{id: "projects-marine-biomechanics",
+          title: 'Marine Biomechanics',
+          description: "Studying the mixing and thermal regulation of oyster shells",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/biomechanics/";
             },},{id: "projects-wearable-hand-tremor-attenuator",
           title: 'Wearable Hand Tremor Attenuator',
           description: "Developing a wrist-watch-like electromechanical device to actively reduce hand tremors.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
+              window.location.href = "/projects/capstone/";
+            },},{id: "projects-brown-formula-racing-subsystems",
+          title: 'Brown Formula Racing Subsystems',
+          description: "Leading the design and fabrication of the chassis and steering subsystems",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fsae/";
             },},{id: "projects-miscellaneous-mini-projects",
           title: 'Miscellaneous Mini-Projects',
           description: "Machining, woodworking, and 3D printing",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/misc/";
             },},{id: "projects-high-reynolds-number-pipe-flow",
           title: 'High Reynolds Number Pipe Flow',
           description: "Studying the laminar to turbulent transition in pipe flows.",
