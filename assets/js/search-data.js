@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of my projects",
+          description: "A growing collection of my projects. The projects are roughly ordered by time spent, with the project involving the most time at the top (several years invested), to projects with lesser time involved at the bottom (a month at the least). The last &quot;project&quot; consists of smaller projects, most taking anywhere from a few days to a few weeks. Nonetheless, all projects on this page provided me with invaluable engineering and fabrication experience.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
