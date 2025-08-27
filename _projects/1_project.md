@@ -3,7 +3,7 @@ layout: page
 title: Bicycle Framebuilding
 description: Designing and fabricating a bike frame from scratch
 img: assets/img/frame_jig.jpg
-importance: 1
+importance: 3
 category: work
 related_publications: true
 ---
