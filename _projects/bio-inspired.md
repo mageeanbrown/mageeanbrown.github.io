@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bio-inspired Fluid Dynamics
+title: Bio-inspired Robotics and Fluid Dynamics
 description: Studying the hydrodynamics of an underwater robot with a shrimp-inspired design
 img: assets/img/4.jpg
 importance: 1
