@@ -5,7 +5,7 @@ description: Designing and fabricating a bike frame from scratch
 img: assets/img/frame_jig.jpg
 importance: 3
 category: work
-related_publications: true
+related_publications: false
 ---
 
 This project evolved from an independent study project that I started during one semester of undergrad. At the time that I began the project, I had barely used CAD, had very little machining experience, and was just beginning to seriously practice TIG welding. Unsuprisingly, building a bicycle frame from scratch required that I get good at all of these skills. 
