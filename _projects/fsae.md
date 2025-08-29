@@ -8,9 +8,13 @@ category: work
 giscus_comments: false
 ---
 
-I joined the Brown Formula Racing during my sophomore year of undergrad. Each year, the team builds a racecar from scratch. The team then competes at FSAE Michigan each May, which is a competition consisting of universities across the world. 
+I joined the Brown Formula Racing during my sophomore year of undergrad. Each year, the team builds a racecar from scratch and then competes at the Formula SAE Michigan event in May.
 
-During my junior year (2023), I was responsible for the steering system of the car. While we used a relatively simple rack and pinion steering system, designing the steering geometry to properly interact with the suspension, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, which was a great experience in working with other people with different areas of expertise.
+This project page showcases work from two subsystems that I led on the team. During my junior year (2023), I was the solo lead on the steering subsystem. During my senior year (2024), I co-led the chassis subsystem along with one other member. On our team, the chassis subsystem involves designing and fabricating the chassis, in addition to welding for any other subsystems, such as the exhaust and pedal box.
+
+Steering Subsystem:
+
+While we used a relatively simple rack and pinion steering system, designing the steering geometry to properly interact with the suspension, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, which was a great experience in working with other people with different areas of expertise.
 
 Below are images of the assembly and some FEA that I ran on the upper steering shaft, which connects the steering column with the steering wheel components. I also ran many FEA simulations on the bearing housing, which helps hold the steering shaft in place while allowing rotation. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
 
@@ -30,7 +34,9 @@ Below are images of the assembly and some FEA that I ran on the upper steering s
     
 </div>
 
-My senior year (2024), I became a co-lead of the chassis subsystem with one other member. This subsystem involves designing and fabricating the entire frame of the car and any other welding that subsystems require. This is also one of the first subsystems that need to be completed in the year, as every other subsystem mounts and test their parts on the chassis. Because of this, we start some of the design and simulation process by late summer so we can order our tubes (we get them coped out-of-house) and get everything jigged, and then welded by February. After welding is complete, we do physical testing to verify our simulations, such as validation of torsional stiffness estimates. 
+Chassis Subsystem
+
+The chassis is one of the first subsystems that need to be completed in the year, as every other subsystem mounts and tests its parts on the chassis. Because of this, we start some of the design and simulation process by late summer so the tubes can be ordered (we get them coped out-of-house), jigged, and then welded by February. After welding is complete, we do physical testing to verify our simulations, such as validation of torsional stiffness estimates from FEA. 
 
 Below are some images from the design, testing, and fabrication of the car which took place over many, many months!
 
