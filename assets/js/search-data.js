@@ -414,8 +414,8 @@ ninja.data = [{
           description: "Designing and fabricating a bike frame from scratch",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bike/";
-            },},{id: "projects-bio-inspired-fluid-dynamics",
-          title: 'Bio-inspired Fluid Dynamics',
+            },},{id: "projects-bio-inspired-robotics-and-fluid-dynamics",
+          title: 'Bio-inspired Robotics and Fluid Dynamics',
           description: "Studying the hydrodynamics of an underwater robot with a shrimp-inspired design",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bio-inspired/";
