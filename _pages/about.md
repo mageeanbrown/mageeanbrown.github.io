@@ -55,7 +55,6 @@ latest_posts:
 </style>
 
 <div class="about-banner"></div>
-<div class="banner-name">Maggie Brown</div>
 
 <div class="about-content">
 
