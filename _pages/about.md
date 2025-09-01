@@ -29,7 +29,7 @@ latest_posts:
 <style>
 .about-banner {
   width: 100%;
-  height: 33vh;
+  height: 40vh;
   background-image: url("/assets/img/banner.jpg"); /* update with your image path */
   background-size: cover;
   background-position: center;
@@ -58,12 +58,11 @@ latest_posts:
 <div class="banner-name">Mageean Brown</div>
 <div class="about-content">
 
-Hello! I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). I am passionate about environmental fluid dynamics and, as an experimental researcher with a love for side-projects, I have entensive fabrication experience. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. 
-
-In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](https://mageeanbrown.github.io/projects/) and [CV](https://mageeanbrown.github.io/cv/)
 
 </div>
 
+Hello! I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). I am passionate about environmental fluid dynamics and, as an experimental researcher with a love for side-projects, I have entensive fabrication experience. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. 
 
+In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](https://mageeanbrown.github.io/projects/) and [CV](https://mageeanbrown.github.io/cv/)
 
 
