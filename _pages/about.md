@@ -12,58 +12,60 @@ profile:
     <p>mrbrown@caltech.edu</p>
     <p>Pasadena, CA 91106</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 <style>
 .about-banner {
   width: 100%;
   height: 33vh;
-  background-image: url("/assets/img/banner.jpg"); /* update path to your image */
+  background-image: url("/assets/img/banner.jpg"); /* update with your image path */
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: absolute; /* fix at top of the page */
+  top: 0;
+  left: 0;
+  z-index: -1; /* send behind navbar + content */
 }
 
 .banner-name {
   position: absolute;
-  top: 1rem;
+  top: 4rem;   /* offset below navbar */
   left: 1.5rem;
-  font-size: 1.5rem; /* smaller text */
+  font-size: 1.5rem;
   font-weight: 600;
   color: white;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.6); /* improves readability */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
 }
 
 .about-content {
-  margin-top: 2rem;
+  margin-top: 35vh; /* pushes content down below banner */
 }
 </style>
 
-<div class="about-banner">
-  <div class="banner-name">
-    Mageean Brown
-  </div>
-</div>
+<div class="about-banner"></div>
+<div class="banner-name">Maggie Brown</div>
 
 <div class="about-content">
 
 Hello! I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). I am passionate about environmental fluid dynamics and, as an experimental researcher with a love for side-projects, I have entensive fabrication experience. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. 
 
-In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](/projects/) and [CV](/cv/).
+In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](https://username.github.io/projects/)
+[CV](https://username.github.io/cv/)
 
 </div>
+
 
 
 
