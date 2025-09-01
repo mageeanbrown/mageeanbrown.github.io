@@ -26,7 +26,18 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<div class="about-banner">
+  <div class="banner-name">
+    Mageean Brown
+  </div>
+</div>
+
+<div class="about-content">
+
 Hello! I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). I am passionate about environmental fluid dynamics and, as an experimental researcher with a love for side-projects, I have entensive fabrication experience. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. 
 
 In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](/projects/) and [CV](/cv/).
+
+</div>
+
 
