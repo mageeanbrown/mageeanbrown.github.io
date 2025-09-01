@@ -26,6 +26,31 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+.about-banner {
+  width: 100%;
+  height: 33vh;
+  background-image: url("/assets/img/banner.jpg"); /* update path to your image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner-name {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  font-size: 1.5rem; /* smaller text */
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6); /* improves readability */
+}
+
+.about-content {
+  margin-top: 2rem;
+}
+</style>
+
 <div class="about-banner">
   <div class="banner-name">
     Mageean Brown
@@ -39,5 +64,6 @@ Hello! I am currently conducting research in the Graduate Aerospace Laboratories
 In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](/projects/) and [CV](/cv/).
 
 </div>
+
 
 
