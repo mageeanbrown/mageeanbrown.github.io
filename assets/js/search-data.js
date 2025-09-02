@@ -409,9 +409,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-bicycle-framebuilding",
-          title: 'Bicycle Framebuilding',
-          description: "Designing and fabricating a bike frame from scratch",
+          section: "News",},{id: "projects-bicycle-frame-building",
+          title: 'Bicycle Frame Building',
+          description: "Designing and fabricating a bicycle frame from scratch",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bike/";
             },},{id: "projects-bio-inspired-robotics-and-fluid-dynamics",
