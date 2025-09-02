@@ -8,9 +8,11 @@ category: work
 giscus_comments: false
 ---
 
-This was my senior capstone project during undergrad. I worked with a group of 5 friends to design and prototype a wearable device that can reduce hand tremors, specifically targeting Parkinson's disease patients. Throughout this project, we had conversations with over 20 medical professionals to determine what design features would be the most valuable for their patients. Eventually, we decided upon a design that uses the principle of destructive interference of waves. Since tremors cause the hand to move in approximately a sinusoidal pattern, our system utilizes a controllable mass that moves at a 180-degree phase offset from the tremor itself. Two back-to-back solenoids were used to control the movement of the mass (in this case, the mass is a magnet core), and we used feedback from an accelerometer to create a closed-loop control system.
+This was my senior capstone project during undergrad. I worked with a group of 5 friends to design and prototype a wearable device that can reduce hand tremors, specifically targeting Parkinson's disease patients. 
 
-Since we were unable to test our device on actual patients (the process of getting approval for this could not be completed in a semester), we created a tremor simulator using an eccentric mass attached to a small motor, which could also be worn on the wrist. 
+Throughout this project, we had conversations with over 20 medical professionals to determine what design features would be the most valuable for their patients. Eventually, we decided upon a design that uses the principle of destructive interference of waves. Since tremors cause the hand to move in approximately a sinusoidal pattern, our system utilizes a controllable mass that moves at a 180-degree phase offset from the tremor itself. Two back-to-back solenoids were used to control the movement of the mass (in this case, the mass is a magnet core), and we used feedback from an accelerometer to create a closed-loop control system.
+
+Since we were unable to test our device on patients with tremors (the process of getting approval for this could not be completed in a semester), we created a tremor simulator using an eccentric mass attached to a small motor, which could also be worn on the wrist. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
