@@ -41,17 +41,16 @@ Once the design is complete and our team has passed SES (structural equivalency 
 
 After the tubes are jigged, welding is then in full swing. We use tungsten inert gas (TIG) welding. This type of welding takes a lot of practice to get the hang of, which means that it is almost exclusively myself and my co-lead who weld the entire chassis, and any other parts for the car, such as the exhaust system and pedal box. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+<div class="row align-items-center custom-row">
+    <div class="col">
         {% include figure.liquid path="assets/img/cj_weld.jpg" title="welding" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col">
         {% include figure.liquid path="assets/img/car_welded.jpg" title="chassis on welding table" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption"
-    
-On the left, some welding in action with my co-lead. This was when we had two welders running, but unfortunately, the second broke towards the beginning of the welding season. On the right, the mostly-welded chassis. Although it's a bit messy in the picture, you'll notice we have a really cool welding table! When the chassis is bolted into the jigs, which bolt into the table, we can rotate the entire table to allow for more comfortable welding positions.
+<div class="caption">
+    On the left, some welding in action with my co-lead. This was when we had two welders running, but unfortunately, the second broke towards the beginning of the welding season. On the right, the mostly-welded chassis. Although it's a bit messy in the picture, you'll notice we have a really cool welding table! When the chassis is bolted into the jigs, which bolt into the table, we can rotate the entire table to allow for more comfortable welding positions.
 </div>
 
 <div class="row">
