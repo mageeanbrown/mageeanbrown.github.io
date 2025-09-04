@@ -5,7 +5,8 @@ description: Studying the hydrodynamics of an underwater robot with a shrimp-ins
 img: assets/img/4.jpg
 importance: 1
 category: work
-related_publications: false
+related_publications: true
+cv_pdf: Honors_Thesis_Archive.pdf # you can also use external links here
 ---
 
 This is a project that I worked on in the Wilhelmus Lab at Brown University. I wrote my honors thesis in mechanical engineering about this project. I also presented this project at the American Physical Society Division of Fluid Dynamics (APS DFD) conference in 2023, and my abstract gives a good overview of what the project entailed:
