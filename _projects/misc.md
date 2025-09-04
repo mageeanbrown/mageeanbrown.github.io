@@ -4,7 +4,7 @@ title: Miscellaneous Mini-Projects
 description: Machining, woodworking, and 3D printing
 img: assets/img/hammer.jpg
 importance: 7
-category: work
+category: engineering
 ---
 
 This is a collection of various small projects that I've done throughout the years (at least the ones I took pictures of).
