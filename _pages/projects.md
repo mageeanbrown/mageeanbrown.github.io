@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my engineering projects. The projects are roughly ordered by time spent, with the project involving the most time at the top and the least time at the bottom. The last 'project' consists of smaller fabrication projects, most taking anywhere from a few days to a few weeks.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [engineering, other]
 horizontal: false
 ---
 
