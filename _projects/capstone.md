@@ -4,7 +4,7 @@ title: Wearable Hand Tremor Attenuator
 description: Developing a wrist-watch-like electromechanical device to actively reduce hand tremors.
 img: assets/img/TRUhold.jpg
 importance: 4
-category: work
+category: engineering
 giscus_comments: false
 ---
 
