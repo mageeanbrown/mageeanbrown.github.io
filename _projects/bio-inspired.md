@@ -6,7 +6,6 @@ img: assets/img/4.jpg
 importance: 1
 category: work
 related_publications: true
-cv_pdf: Honors_Thesis_Archive.pdf # you can also use external links here
 ---
 
 This is a project that I worked on in the Wilhelmus Lab at Brown University. I wrote my honors thesis in mechanical engineering about this project. I also presented this project at the American Physical Society Division of Fluid Dynamics (APS DFD) conference in 2023, and my abstract gives a good overview of what the project entailed:
@@ -48,6 +47,25 @@ Anyway, here are some fun photos/figures from the research process!
 </div>
 <div class="caption">
     A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. The color bar shows the magnitude of vorticity, and streamlines are also plotted. There are coherent leading-edge vortices (LEVs) that enhance lift generation.
+</div>
+
+If you are interested in reading my full honors thesis, it is available below:
+<!-- PDF Preview -->
+<div class="row mt-5">
+  <div class="col-12">
+    <h3 class="mb-3">Full Thesis PDF</h3>
+    <embed 
+      src="{{ '/assets/pdf/Honors_Thesis_Archive.pdf' | relative_url }}" 
+      type="application/pdf" 
+      width="100%" 
+      height="800px"
+      style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+    <p class="mt-3 text-center">
+      <a href="{{ '/assets/pdf/Honors_Thesis_Archive.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
+        📄 Open / Download PDF
+      </a>
+    </p>
+  </div>
 </div>
 
 
