@@ -28,10 +28,6 @@ The chassis subsystem design season starts during the summer before school is ba
     On the left, the CAD model of the chassis. The tubes of the same color indicate the same thickness. On the right, FEA of the chassis. Here, we are trying to evaluate torsional stiffness (which is important for an effective suspension), so a force is applied upward at one of the front wheels while, on the other side, a downward force is applied. In this case, the suspension system is simply modeled as a stiff group of triangulated tubes, which allows us to isolate the chassis response to forces applied at the wheels. 
 </div>
 
-Once the design is complete and our team has passed SES (structural equivalency spreadsheet; this ensures important rules are met), we order our tubes, which are laser-cut out of house. While we wait on the tubes to arrive, we manufacture jigs so the tubes can be properly held in place while we weld. This can be a pretty tricky process, but without good jigs, the welding process is hopeless. For our jig, we machine posts that hold all of our suspension hardpoints, which in turn hold our chassis tubes together. For areas a bit farther from the heat-affected zone, we add 3D printed jigs to confirm that everything stays in the correct place.
-
-After the tubes are jigged, we then do lots and lots of welding. We use tungsten inert gas (TIG) welding. This type of welding takes a lot of practice to get the hang of, which means that it is almost exclusively myself and my co-lead who weld the entire chassis, and any other parts for the car, such as the exhaust system and pedal box. 
-
 <div class="row">
     <div class="col-sm-8 mx-auto">
         {% include figure.liquid loading="eager" path="assets/img/iteration_of_chass.png" title="chassis iterations" class="img-fluid rounded z-depth-1" %}
@@ -41,7 +37,33 @@ After the tubes are jigged, we then do lots and lots of welding. We use tungsten
     An example of the iteration process that occurs during the design and simulation phase of the project. Typically, there is a trade-off between high torsional stiffness and weight, so we optimize these variables to get a light but stiff chassis.
 </div>
 
-Once the chassis is welded and powder-coated, we run extensive physical tests on the chassis. Many of these tests validate the simulations that we ran in SolidWorks, such as the torsional stiffness estimates.
+Once the design is complete and our team has passed SES (structural equivalency spreadsheet; this ensures important rules are met), we order our tubes, which are laser-cut out of house. While we wait on the tubes to arrive, we manufacture jigs so the tubes can be properly held in place while we weld. This can be a pretty tricky process, but without good jigs, the welding process is hopeless. For our jigs, we machine posts that hold all of our suspension hardpoints, which in turn hold our chassis tubes together. For areas a bit farther from the heat-affected zone, we add 3D printed jigs to confirm that everything stays in the correct place.
+
+After the tubes are jigged, welding is then in full swing. We use tungsten inert gas (TIG) welding. This type of welding takes a lot of practice to get the hang of, which means that it is almost exclusively myself and my co-lead who weld the entire chassis, and any other parts for the car, such as the exhaust system and pedal box. 
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/cj_weld.jpg" title="welding" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/car_welded.jpg" title="chassis on welding table" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption"
+    
+On the left, some welding in action with my co-lead. This was when we had two welders running, but unfortunately, the second broke towards the beginning of the welding season. On the right, the mostly-welded chassis. Although it's a bit messy in the picture, you'll notice we have a really cool welding table! When the chassis is bolted into the jigs, which bolt into the table, we can rotate the entire table to allow for more comfortable welding positions.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/chassis_hold.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    My co-subsystem lead and I holding the chassis before sending it off to get its powder coat. The week before was spent welding almost around the clock to get the chassis done before spring classes started up.
+</div>
+
+After the chassis is welded and powder-coated, we then do physical testing on the chassis. Many of these tests are used to validate our simulations, such as those made to calculate torsional stiffness. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -57,24 +79,17 @@ Once the chassis is welded and powder-coated, we run extensive physical tests on
 
 <div class="row">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/car_welded.jpg" title="rear bay" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/finished_car.jpg" title="finished car" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Welding progress (left) and the finished 2024 car (right), "Rhode Rage".
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/chassis_hold.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-7 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/comp.jpg" title="competition" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    My co-subsystem lead and I holding the chassis before sending it off to get its powder coat. The week before was spent welding almost around the clock to get the chassis done before spring classes started up.
+    On the right, the finished 2024 car, "Rhode Rage". On the left, the car at the Formula SAE Michigan competition.
 </div>
+
+
 Steering Subsystem (2023):
 
 While we used a relatively simple rack and pinion steering system, designing the steering geometry to properly interact with the suspension, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, which was a great experience in working with other people with different areas of expertise.
