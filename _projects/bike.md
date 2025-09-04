@@ -16,19 +16,16 @@ A year later, and after welding a racecar (see more about this [here](/projects/
 
 Unfortunately, I had to leave this project at home when I moved across the country for grad school. The rest of the components still need to be assembled, but I am very proud of how the frame turned out!
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row align-items-center custom-row">
+    <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/cad_file.png" title="cad file" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col">
         {% include figure.liquid loading="eager" path="assets/img/fea_frame.png" title="fea" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/chips.jpg" title="chips" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, the bike dimensions designed using Solidworks. In the middle, FEA results (again using Solidworks) that I simulated during my independent study. On the right, machining part of the jig that I used to weld the frame.
+    On the left, the bike dimensions designed using Solidworks. On the right, FEA results (again using Solidworks) that I simulated during my independent study.
 </div>
 
 <div class="row justify-content-sm-center">
