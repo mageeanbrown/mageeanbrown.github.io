@@ -54,7 +54,7 @@ If you are interested in reading my full honors thesis, it is available below:
 <!-- PDF Preview -->
 <div class="row mt-5">
   <div class="col-12">
-    <h3 class="mb-3">Full Thesis PDF</h3>
+    <h3 class="mb-3">Undergrad Honors Thesis</h3>
     <embed 
       src="{{ '/assets/pdf/Honors_Thesis_Archive.pdf' | relative_url }}" 
       type="application/pdf" 
