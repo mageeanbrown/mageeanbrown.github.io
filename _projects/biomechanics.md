@@ -4,7 +4,7 @@ title: Marine Biomechanics
 description: Studying the mixing and thermal regulation of oyster shells
 img: assets/img/oyster.jpg
 importance: 6
-category: work
+category: engineering
 ---
 
 For this project, I studied the biomechanics of oysters as part of the Marine Biomechanics course at Friday Harbor Laboratories in Washington. Specifically, I explored how shelf-like extrusions on the shell, called flutes, influence the hydrodynamics of the environment surrounding oysters, in addition to how fluting affects temperature regulation. 
