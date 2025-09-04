@@ -7,6 +7,7 @@ nav: true
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
+cv_pdf: Honors_Thesis_Archive.pdf # you can also use external links here
 ---
 
 <!-- pages/projects.md -->
