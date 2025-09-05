@@ -33,7 +33,7 @@ A year later, and after welding a racecar (see more about this [here](/projects/
         {% include figure.liquid loading="eager" path="assets/img/machining.jpg" title="machining the jig" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col">
-        {% include figure.liquid loading="eager" path="assets/img/chainstays.jpg" title="cutting tubes" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/chainstay.jpg" title="cutting tubes" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
