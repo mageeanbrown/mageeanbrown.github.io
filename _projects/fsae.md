@@ -85,29 +85,67 @@ After the chassis is welded and powder-coated, we then do physical testing on th
     </div>
 </div>
 <div class="caption">
-    On the right, the finished 2024 car, "Rhode Rage". On the left, the car at the Formula SAE Michigan competition.
+    On the left, the finished 2024 car, "Rhode Rage". On the right, the car at the Formula SAE Michigan competition.
 </div>
 
 
 Steering Subsystem (2023):
 
-While we used a relatively simple rack and pinion steering system, designing the steering geometry to properly interact with the suspension, make tight turns, and be comfortable for the driver is extremely important. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, which was a great experience in working with other people with different areas of expertise.
+For the steering subsystem, I implemented a relatively simple rack-and-pinion steering design. During the design process, I chose to optimize handling and ergonomics, while minimizing weight, compliance, and steering effort. Because of this, I had to collaborate heavily with the suspension and ergonomics subsystems, and gained valuable experience working with teammates with different areas of expertise. Here are some CAD images of the steering system, which I will explain in more detail below.
 
-Below are images of the assembly and some FEA that I ran on the upper steering shaft, which connects the steering column with the steering wheel components. I also ran many FEA simulations on the bearing housing, which helps hold the steering shaft in place while allowing rotation. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/steering2.jpg" title="steering mount" class="img-fluid rounded z-depth-1" %}
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/steering_top.png" title="steering system side" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/steering1.jpg" title="bearing housing and mount" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/steering_fea.jpg" title="FEA of upper shaft" class="img-fluid rounded z-depth-1" %}
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/steering_side.png" title="steering system top" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-   On the left, the steering mount, which is one point of attachment between the steering system and chassis. This was one of my first car-worthy welding projects (apologies for the subpar-looking welds). In the middle, the bearing housing is the trapezoidal aluminum piece, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. I machined this part mostly manually, except for a groove that I CNC machined for a bearing retaining ring.  The steering wheel (removable for quick  driver egress) attaches on the spline that is also in the image. On the right, FEA of the upper shaft is shown. The primary hole shown is for electrical wires to exit.
-    
+    On the left, the steering system modeled in SolidWorks. On the right, a side view of the steering system in the car. The plane visible in this CAD image is tangent to the top of the front roll bar. The entire steering system must be below this plane (even with the steering while completely turned, as in the image) to ensure that the driver's hands are protected by the chassis if the car were to crash.
 </div>
 
+This design had 98% static positive geometry to optimize slip angle at relatively low speeds in a tight FSAE corner radius. The system also had 82% dynamic Ackermann at minimum turning radii. A similar number was found for the very small turning radius of 1 wheelbase (~63 inches). A 280 degree lock-lock steering wheel range allows for comfortable steering effort and ergonomics, and the car has an approximately 4:1 steering ratio.
+
+Below are images of some of the FEA that I ran on the upper steering mount, steering shaft, and bearing housing. For these parts, it is primarily torque and lateral forces from the driver applied at the steering wheel that are important to consider. 
+
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/fea_mount.png" title="FEA of steering mount" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/shaft_fea.png" title="FEA of upper shaft" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/fea_bearing.png" title="FEA of bearing housing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   On the left, FEA of the steering mount, which is one of the points of attachment between the steering system and chassis. In the middle, FEA of the upper shaft is shown with 150 Nm of torque applied. The primary hole shown is for electrical wires to exit. On the right, FEA of the bearing housing, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. In all of these images, magenta arrows indicate force vectors, while green arrows are constrained points. In the bearing housing image, there are no arrows visible, but this analysis was run with lateral forcing applied and constraints at the mounting points. Based on literature values, 660 N of force and 150 Nm of torque is applied throughout the analyses.
+</div>
+
+For the fabrication stage of the project, I machined and/or welded all components, aside from the steering rack and steering wheel quick-release, which we purchased off-the-shelf. Here are some images of the different parts, as well as the assembled system!
+
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/mount_before.png" title="pre-welding steering mount" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/mount_after.png" title="steering mount welded on car" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, the steering system mount before welding. This mount is made from steel and the pieces are laser cut out-of-house (it is designed with cut-outs for weight reduction, rather than having full steel sheets that provide a similar strength). On the right, the mount after I welded it to the car. I think this is my first welded part that made its way onto the car!
+</div>
+
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/assembly.jpg" title="steering assembly" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid loading="eager" path="assets/img/driving_day.jpg" title="driving day" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, the assembly of the bearing housing, upper shaft, and spline are visible. The steering wheel attaches to the spline and can be removed for quick driver egress. On the right, the almost complete car on one of our driving days, where we collect data and make adjustments before the competition in May.
+</div>
