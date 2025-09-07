@@ -104,7 +104,7 @@ Here are some CAD images of the steering system, which I will explain in more de
     </div>
 </div>
 <div class="caption">
-    On the left, the steering system modeled in SolidWorks. On the right, a side view of the steering system in the car. The plane visible in this CAD image is tangent to the top of the front roll bar. The entire steering system must be below this plane (even with the steering while completely turned, as in the image) to ensure that the driver's hands are protected by the chassis if the car were to crash.
+    On the left, the steering system modeled in SolidWorks. On the right, a side view of the steering system in the car. The plane visible in this CAD image is tangent to the top of the front roll bar. The entire steering system must be below this plane (even with the steering wheel completely turned, as in the image) to ensure that the driver's hands are protected by the chassis if the car were to crash.
 </div>
 
 <div class="row align-items-center custom-row">
@@ -135,7 +135,7 @@ Below are images of some of the FEA that I ran on the upper steering mount, stee
     </div>
 </div>
 <div class="caption">
-   On the left, FEA of the steering mount, which is one of the points of attachment between the steering system and chassis. In the middle, FEA of the upper shaft is shown. The primary hole shown is for electrical wires to exit. On the right, FEA of the bearing housing, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. In all of these images, magenta arrows indicate force vectors, while green arrows are constrained points. In the bearing housing image, there are no arrows visible, but this analysis was run with lateral forcing applied and constraints at the mounting points. Based on literature values, 660 N of force and 150 Nm of torque is applied throughout the analyses.
+   On the left, FEA of the steering mount, which is one of the points of attachment between the steering system and chassis. In the middle, FEA of the upper shaft is shown. The primary hole shown is for electrical wires to exit. On the right, FEA of the bearing housing, which holds the steering shaft and allows the entire column to rotate smoothly when the driver turns. In all of these images, magenta arrows indicate force vectors, while green arrows are constrained points. In the bearing housing image, there are no arrows visible, but this analysis was run with lateral forcing applied and constraints at the mounting points. Based on literature values, 660 N of force and/or 150 Nm of torque is applied throughout the analyses.
 </div>
 
 For the fabrication stage of the project, I machined and/or welded all components, aside from the steering rack and steering wheel quick-release, which we purchased off-the-shelf. Here are some images of the different parts, as well as the assembled system!
