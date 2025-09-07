@@ -116,7 +116,7 @@ Here are some CAD images of the steering system, which I will explain in more de
     </div>
 </div>
 <div class="caption">
-    On the left, image of the steering rack, which is the NARRCO 17.4” eye-to-eye, with a 3.46 in/rev rack speed and 13.4-tooth pinion. On the right, a CAD image of one of the mounts that holds the rack in place. These mounts are machined from steel, and one side of the mount is welded to the chassis.
+    On the left, an image of the steering rack, which is the NARRCO 17.4” eye-to-eye, with a 3.46 in/rev rack speed and 13.4-tooth pinion. On the right, a CAD image of one of the mounts that holds the rack in place. These mounts are machined from steel, and one side of the mount is welded to the chassis.
 </div>
 
 This design had 98% static positive geometry to optimize slip angle at relatively low speeds in a tight FSAE corner radius. The system also had 82% dynamic Ackermann at minimum turning radii. A similar number was found for the very small turning radius of 1 wheelbase (~63 inches). A 280 degree lock-lock steering wheel range allows for comfortable steering effort and ergonomics, and the car has an approximately 4:1 steering ratio.
