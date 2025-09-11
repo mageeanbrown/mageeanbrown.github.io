@@ -58,6 +58,7 @@ Three example nozzles. Nozzles (a) and (b) were made from aluminum and grey plas
 
 Another goal of this project was to develop a method for conducting particle image velocimetry (PIV) within the pipe, enabling the quantification of flow velocity and vorticity. Using standard 2D PIV methods, this is not possible because the curved surface of the glass pipe will distort the laser sheet. To mitigate this problem, we created a 'water lens', which utilizes index-of-refraction-matching so that the largest transitions in index of refraction occur at flat boundaries, normal to the laser sheet. Some images of our water lens are shown below.
 
+<div class="row align-items-center custom-row">
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/full_laser_on.jpg" title="" class="img-fluid rounded z-depth-1" %}
@@ -81,7 +82,7 @@ We collected PIV data at 3 flow rates: 11.36 L/min, 13.44 L/min, and 15.33 L/min
     </div>
 </div>
 <div class="caption">
-    On the left, mean vorticity, velocity vectors (black arrows), and streamlines (red lines) from the first run of the 11.36 L/min case. The non-zero vorticity at the edges is attributed to the poor performance of PIV near the walls due to reflections on the glass. On the right, streamwise mean velocity profiles at an upstream and downstream locations in the pipe for Re=28,000. The flow was visually confirmed as being laminar upon leaving the pipe outlet. Mean values are calculated over 3500 frames across 3 trials. A 95% confidence interval is indicated by shaded regions.
+    On the left, mean vorticity, velocity vectors (black arrows), and streamlines (red lines) from the first run of the 11.36 L/min case. The non-zero vorticity at the edges is attributed to the poor performance of PIV near the walls due to reflections on the glass. On the right, streamwise mean velocity profiles at an upstream and downstream locations in the pipe for Re=28,000. The flow was visually confirmed as being laminar upon leaving the pipe outlet. Mean values are calculated over 3500 frames across 3 trials. Shaded regions indicate a 95% confidence interval.
 </div>
 
 The rest of this page is under construction. Check back soon!
