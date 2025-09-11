@@ -61,7 +61,7 @@ latest_posts:
 
 </div>
 
-Hello! My name is Mageean, or Maggie for short. I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). I am passionate about environmental fluid dynamics, and as an experimental researcher with a love for side projects, I have extensive fabrication experience. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. 
+Hello! My name is Mageean, or Maggie for short. I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). I am passionate about environmental fluid dynamics, and as an experimental researcher with a love for side projects, I have extensive fabrication experience. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. In my Master's program, I completed the fluid dynamics and control systems track. 
 
 In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](https://mageeanbrown.github.io/projects/) and [CV](https://mageeanbrown.github.io/cv/)
 
