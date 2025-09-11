@@ -2,7 +2,7 @@
 layout: page
 title: Miscellaneous Mini-Projects
 description: Machining, woodworking, and 3D printing
-img: assets/img/hammer.jpg
+img: assets/img/welded_sculpture.jpg
 importance: 7
 category: engineering
 ---
