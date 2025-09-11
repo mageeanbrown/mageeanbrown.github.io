@@ -8,7 +8,7 @@ category: engineering
 ---
 This was a quarter-long project that I completed with one other classmate in my Experimental Methods class at Caltech.
 
-Despite being ubiquitous in engineering applications, the laminar-to-turbulent transition in pipe flow still remains a significant gap in the modern understanding of fluid flows. In this project, pipe flow transition is studied experimentally, similar to Osborne Reynolds’ famous experiments in the late 19th century. These experiments gave rise to the eponymous Reynolds number, which is a nondimensional number representing the ratio of inertial effects to viscous effects. In this project, Reynolds number is defined as Re = (&#961; U D) / &#956;, where &pho is the fluid density, U is the fluid velocity, D is the pipe diameter, and &mu is the dynamic fluid viscosity.
+Despite being ubiquitous in engineering applications, the laminar-to-turbulent transition in pipe flow still remains a significant gap in the modern understanding of fluid flows. In this project, pipe flow transition is studied experimentally, similar to Osborne Reynolds’ famous experiments in the late 19th century. These experiments gave rise to the eponymous Reynolds number, which is a nondimensional number representing the ratio of inertial effects to viscous effects. In this project, Reynolds number is defined as Re = (&#961; U D) / &#956;, where &#961; is the fluid density, U is the fluid velocity, D is the pipe diameter, and &#956; is the dynamic fluid viscosity.
 
 Our setup uses a high-flow rate pump, which can produce flow rates up to 36,000 liters per hour. We pump water through a 6-foot length of glass pipe (1/4'' ID) that we got specially glassblown for the project. A diagram and image of the experimental setup are shown below.
 
@@ -37,17 +37,17 @@ Three example nozzles. Nozzles (a) and (b) were made from aluminum and grey plas
 <div class="container">
   <div class="row mb-3">
     <div class="col-12">
-      {% include figure.liquid loading="eager" path="assets/img/al_nozzle.jpg" title="aluminum nozzle" class="img-fluid rounded z-depth-1 w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/al_nozzle.jpg" title="" class="img-fluid rounded z-depth-1 w-100" %}
     </div>
   </div>
   <div class="row mb-3">
     <div class="col-12">
-      {% include figure.liquid loading="eager" path="assets/img/plastic_nozzle.jpg" title="plastic nozzle" class="img-fluid rounded z-depth-1 w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/plastic_nozzle.jpg" title="" class="img-fluid rounded z-depth-1 w-100" %}
     </div>
   </div>
   <div class="row mb-3">
     <div class="col-12">
-      {% include figure.liquid loading="eager" path="assets/img/glass_nozzle.jpg" title="glass nozzle" class="img-fluid rounded z-depth-1 w-100" %}
+      {% include figure.liquid loading="eager" path="assets/img/glass_nozzle.jpg" title="" class="img-fluid rounded z-depth-1 w-100" %}
     </div>
   </div>
 </div>
@@ -60,52 +60,32 @@ Another goal of this project was to develop a method for conducting particle ima
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/full_laser_on.jpg" title="Experimental Setup with Laser" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/full_laser_on.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lens_laser.jpg" title="Water Lens" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/lens_laser.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     On the left, an image of the experimental setup with the laser on. On the right, an up-close image of the water lens with the laser sheet passing through. The water lens is made from borosilicate glass.
 </div>
 
+We collected PIV data at 3 flow rates: 11.36 L/min, 13.44 L/min, and 15.33 L/min. These flow rates correspond to Reynolds numbers of approximately 28,000, 33,500, and 38,000, respectively. We also imaged the flow at an upstream and downstream location along the length of the pipe, at 60 cm and 120 cm from the nozzle inlet, respectively. All image data was analyzed using PIVlab, an open-source MATLAB 2D PIV software. Results from these analyses allowed us to verify the effectiveness of our PIV approach, as we were able to successfully reconstruct laminar velocity and vorticity flow fields in the pipe. 
+
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid path="assets/img/PIVlab_out_3501.png" title="" class="row-img rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid path="assets/img/profile_95_conf.jpg" title="" class="row-img rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, mean vorticity, velocity vectors (black arrows), and streamlines (red lines) from the first run of the 11.36 L/min case. The non-zero vorticity at the edges is attributed to the poor performance of PIV near the walls due to reflections on the glass. On the right, streamwise mean velocity profiles at an upstream and downstream locations in the pipe for Re=28,000. The flow was visually confirmed as being laminar upon leaving the pipe outlet. Mean values are calculated over 3500 frames across 3 trials. A 95% confidence interval is indicated by shaded regions.
+</div>
+
 The rest of this page is under construction. Check back soon!
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/on_priner.jpg" title="3D print" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gled_up.jpg" title="Finished prints" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption.
-</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hamer.jpg" title="Machined hammer" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/jup.jpg" title="Ski jump" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption. 
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/rickhaw.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/floers.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption. 
-</div>
 
 
