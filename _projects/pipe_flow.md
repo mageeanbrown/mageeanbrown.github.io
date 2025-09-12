@@ -73,6 +73,7 @@ Another goal of this project was to develop a method for conducting particle ima
 
 We collected PIV data at 3 flow rates: 11.36 L/min, 13.44 L/min, and 15.33 L/min. These flow rates correspond to Reynolds numbers of approximately 28,000, 33,500, and 38,000, respectively. We also imaged the flow at an upstream and downstream location along the length of the pipe, at 60 cm and 120 cm from the nozzle inlet, respectively. All image data was analyzed using PIVlab, an open-source MATLAB 2D PIV software. Results from these analyses allowed us to verify the effectiveness of our PIV approach, as we were able to successfully reconstruct laminar velocity and vorticity flow fields in the pipe. 
 
+
 <div class="row align-items-center custom-row">
     <div class="col">
         {% include figure.liquid path="assets/img/PIVlab_out_3501.png" title="" class="row-img rounded z-depth-1" %}
@@ -85,7 +86,8 @@ We collected PIV data at 3 flow rates: 11.36 L/min, 13.44 L/min, and 15.33 L/min
     On the left, mean vorticity, velocity vectors (black arrows), and streamlines (red lines) from the first run of the 11.36 L/min case. The non-zero vorticity at the edges is attributed to the poor performance of PIV near the walls due to reflections on the glass. On the right, streamwise mean velocity profiles at an upstream and downstream locations in the pipe for Re=28,000. The flow was visually confirmed as being laminar upon leaving the pipe outlet. Mean values are calculated over 3500 frames across 3 trials. Shaded regions indicate a 95% confidence interval.
 </div>
 
-The rest of this page is under construction. Check back soon!
+In the figures above, you can see some of the processed PIV data for laminar pipe flow. I find the cross-sectional profile (figure on the right) to be particularly interesting because it displays the development of the flow as it travels downstream in the pipe. In the upstream case, the profile is somewhat blunted, we begin to see a parabolic profile expected of fully-developed Poiseuille flow. Although our glass pipe was around 6 feet long, future iterations of this experiment will benefit from even longer pipe sections, hence ensuring fully-developed flow upon the fluid exiting the pipe.
+
 
 
 
