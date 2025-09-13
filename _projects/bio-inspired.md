@@ -69,5 +69,7 @@ If you are interested in reading my full honors thesis, it is available below:
   </div>
 </div>
 
+{% cite brown_analysis_2023 --file _bibliography/papers.bib  %}
+{% cite oliveira_pedro_dos_santos_exploring_nodate --file _bibliography/papers.bib  %}
 
 
