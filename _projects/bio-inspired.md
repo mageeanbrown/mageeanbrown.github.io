@@ -10,9 +10,9 @@ related_publications: true
 
 This is a project that I worked on in the Wilhelmus Lab at Brown University. I wrote my honors thesis in mechanical engineering about this project. I also presented this project at the American Physical Society Division of Fluid Dynamics (APS DFD) conference in 2023, and my abstract gives a good overview of what the project entailed:
 
-"Shrimp can adapt to their environment through dynamic morphology, contributing to their remarkable maneuverability and efficiency during swimming. Integral to this morphological adaptability of shrimp is the cupping of leg appendages (pleopods) during their power and recovery stroke. Cupping occurs through the change in the cupping angle between each endopodite and exopodite pair that make up a pleopod. This cupping angle contributes to the actuation of the exopodite to spread outward (abduction) during the power stroke and to move inward (adduction) during the recovery stroke. Previous studies have given insight into these pleopod kinematics. However, the optimal angle of pleopod cupping for different swimming modes and hydrodynamic conditions still needs to be explored. Here, we use biological studies of shrimp to guide the design of a robotic pleopod, which we leveraged to investigate the hydrodynamics of pleopod cupping. Through Particle Image Velocimetry (PIV) experiments and force measurements, we examine the thrust, lift, and vortex generation across a range of cupping angle configurations. We compare the cupping angle of optimal efficiency to the cupping angle found in shrimp (approximately 35°) to understand the trade-off between lift and thrust generation. Implementing the optimal cupping angle will ensure the maneuverability of future underwater metachronal robots under different environmental conditions."
+"Shrimp can adapt to their environment through dynamic morphology, contributing to their remarkable maneuverability and efficiency during swimming. Integral to this morphological adaptability of shrimp is the cupping of leg appendages (pleopods) during their power and recovery stroke. Cupping occurs through the change in the cupping angle between each endopodite and exopodite pair that make up a pleopod. This cupping angle contributes to the actuation of the exopodite to spread outward (abduction) during the power stroke and to move inward (adduction) during the recovery stroke. Previous studies have given insight into these pleopod kinematics. However, the optimal angle of pleopod cupping for different swimming modes and hydrodynamic conditions still needs to be explored. Here, we use biological studies of shrimp to guide the design of a robotic pleopod, which we leveraged to investigate the hydrodynamics of pleopod cupping. Through particle image velocimetry (PIV) experiments and force measurements, we examine the thrust, lift, and vortex generation across a range of cupping angle configurations. We compare the cupping angle of optimal efficiency to the cupping angle found in shrimp (approximately 35°) to understand the trade-off between lift and thrust generation. Implementing the optimal cupping angle will ensure the maneuverability of future underwater metachronal robots under different environmental conditions."
 
-Anyway, here are some fun photos/figures from the research process!
+Below are some CAD renderings (made using Fusion 360) of the robotic pleopod, with the relevant angles denoted. 
 
 <div class="row align-items-center custom-row">
     <div class="col">
@@ -23,7 +23,7 @@ Anyway, here are some fun photos/figures from the research process!
     </div>
 </div>
 <div class="caption">
-    On the left, an illustration of the pleopod model, with the relevant angles and swimming cycle phases indicated. On the right, an exploded view of the pleopod model's joint. There is a bearing to allow for smooth rotation while transitioning to/from the power and recovery strokes.
+    On the left, a rendering of the pleopod model, with the relevant angles and swimming cycle phases indicated. On the right, an exploded view of the pleopod model's joint. There is a bearing to allow for smooth rotation while transitioning to/from the power and recovery strokes.
 </div>
 
 <div class="row">
@@ -63,7 +63,7 @@ If you are interested in reading my full honors thesis, it is available below:
       style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
     <p class="mt-3 text-center">
       <a href="{{ '/assets/pdf/Honors_Thesis_Archive.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
-        📄 Open / Download PDF
+        Open / Download PDF
       </a>
     </p>
   </div>
