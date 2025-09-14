@@ -14,18 +14,28 @@ This is a project that I worked on in the Wilhelmus Lab at Brown University. I w
 
 "Shrimp can adapt to their environment through dynamic morphology, contributing to their remarkable maneuverability and efficiency during swimming. Integral to this morphological adaptability of shrimp is the cupping of leg appendages (pleopods) during their power and recovery stroke. Cupping occurs through the change in the cupping angle between each endopodite and exopodite pair that make up a pleopod. This cupping angle contributes to the actuation of the exopodite to spread outward (abduction) during the power stroke and to move inward (adduction) during the recovery stroke. Previous studies have given insight into these pleopod kinematics. However, the optimal angle of pleopod cupping for different swimming modes and hydrodynamic conditions still needs to be explored. Here, we use biological studies of shrimp to guide the design of a robotic pleopod, which we leveraged to investigate the hydrodynamics of pleopod cupping. Through particle image velocimetry (PIV) experiments and force measurements, we examine the thrust, lift, and vortex generation across a range of cupping angle configurations. We compare the cupping angle of optimal efficiency to the cupping angle found in shrimp (approximately 35°) to understand the trade-off between lift and thrust generation. Implementing the optimal cupping angle will ensure the maneuverability of future underwater metachronal robots under different environmental conditions."
 
-Below are some CAD renderings (made using Fusion 360) of the robotic pleopod, with the relevant angles denoted. 
+Below are illustrations of the shrimp pleopods and a rendering of the pleopod model that I designed in Fusion 360, with the relevant angles denoted. 
 
 <div class="row align-items-center custom-row">
     <div class="col">
-        {% include figure.liquid path="assets/img/methods.png" title="cupping angle depiction" class="row-img rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/shrimp_labeled.png" title="" class="row-img rounded z-depth-1" %}
     </div>
     <div class="col">
-        {% include figure.liquid path="assets/img/exploded_view.jpg" title="bearing exploded view" class="row-img rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/methods.png" title="" class="row-img rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, a rendering of the pleopod model, with the relevant angles and swimming cycle phases indicated. On the right, an exploded view of the pleopod model's joint. There is a bearing to allow for smooth rotation while transitioning to/from the power and recovery strokes.
+    On the left, an illustration of the shrimp with the relevant angles and appendages denoted. On the right, a rendering of the pleopod model, again with the appropriate angles and swimming cycle phases indicated.
+</div>
+
+It is important to note, in the pleopod model, the transition from the power stroke (abduction) to the recovery stroke (adduction) occurs passively from fluid-structure interactions due to the cupping angle. To facilitate smooth movement between the exopodite and endopodite, there is a bearing, which is illustrated below in an exploded-view rendering of the model.
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid path="assets/img/exploded_view.jpg" title="" class="row-img rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+ An exploded view of the model's joint, which contains a bearing for smooth rotation. Rendering was done using Fusion 360.
 </div>
 
 Designing the exopodite was an unexpected challenge. Since the entire model was mounted sideways in the tank, I needed the exopodite to be precisely neutrally buoyant to ensure that passive acuation could occur. I originally used an FDM 3D printer to fabricate the exopodite, and I attempted to tune the infill of the model to achieve the correct buoyancy. However, with a model this small, it was not possible to consistently achieve that same buoyancy at one infill setting. I discovered that the tolerance of the 3D printer was too large for the precision I was trying to achieve. Because of this, I switched to SLA 3D printing, which typically offers better resolution than FDM. However, I again encountered the same issue, where the 3D printer tolerance was too large to achieve consistent buoyancy given the same slicing settings. 
