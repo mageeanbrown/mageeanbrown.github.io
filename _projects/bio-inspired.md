@@ -5,7 +5,9 @@ description: Studying the hydrodynamics of an underwater robot with a shrimp-ins
 img: assets/img/4.jpg
 importance: 1
 category: engineering
-related_publications: true
+related_publications: 
+  - brown_analysis_2023
+  - oliveira_pedro_dos_santos_exploring_nodate
 ---
 
 This is a project that I worked on in the Wilhelmus Lab at Brown University. I wrote my honors thesis in mechanical engineering about this project. I also presented this project at the American Physical Society Division of Fluid Dynamics (APS DFD) conference in 2023, and my abstract gives a good overview of what the project entailed:
@@ -26,15 +28,31 @@ Below are some CAD renderings (made using Fusion 360) of the robotic pleopod, wi
     On the left, a rendering of the pleopod model, with the relevant angles and swimming cycle phases indicated. On the right, an exploded view of the pleopod model's joint. There is a bearing to allow for smooth rotation while transitioning to/from the power and recovery strokes.
 </div>
 
+Designing the exopodite was an unexpected challenge. Since the entire model was mounted sideways in the tank, I needed the exopodite to be precisely neutrally buoyant to ensure that passive acuation could occur. I originally used an FDM 3D printer to fabricate the exopodite, and I attempted to tune the infill of the model to achieve the correct buoyancy. However, with a model this small, it was not possible to consistently achieve that same buoyancy at one infill setting. I discovered that the tolerance of the 3D printer was too large for the precision I was trying to achieve. Because of this, I switched to SLA 3D printing, which typically offers better resolution than FDM. However, I again encountered the same issue, where the 3D printer tolerance was too large to achieve consistent buoyancy given the same slicing settings. 
+
+To solve this issue, I designed the exopodite with an internal pocket, which meant that uncured resin would pool up inside the model during printing. After the printing process, I would make a small hole with a needle and iteratively drain resin from the model until the buoyancy was correct. Upon reaching the correct buoyancy, I sealed the small hole and did a complete curing cycle to prevent movement of resin in the model. This also allowed me to choose where the center of buoyancy was located, which I located as close to the mounting joint (near the bearing) as possible, which mitigated the effect of buoyancy on the orientation of the exopodite. In the CAD images below, you can see the cross-section of the exopodite with the internal pocket.
+
+<div class="row align-items-center custom-row">
+    <div class="col">
+        {% include figure.liquid path="assets/img/full_exo.png" title="" class="row-img rounded z-depth-1" %}
+    </div>
+    <div class="col">
+        {% include figure.liquid path="assets/img/sliced_exo.png" title="" class="row-img rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    On the left, an image of the CAD model of the exopodite. The dovetail on the mounting end allows the cupping-angle joints to be swapped without having to manufacture a new exopodite for every trial. On the right, a section view of the exopodite with the internal pocket visible. Once the buoyancy was tuned, the pocket would be mostly filled with resin, with some resin removed from the region of the pocket closest to the mounting joint.
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/force_transducer.jpg" title="Force transducer" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/force_transducer.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/small_tank.jpg" title="During PIV" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/small_tank.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/particles.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/particles.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -42,7 +60,7 @@ Below are some CAD renderings (made using Fusion 360) of the robotic pleopod, wi
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vorticity_fields.png" title="vorticity fields" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/vorticity_fields.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -68,8 +86,5 @@ If you are interested in reading my full honors thesis, it is available below:
     </p>
   </div>
 </div>
-
-{% cite brown_analysis_2023 --file _bibliography/papers.bib  %}
-{% cite oliveira_pedro_dos_santos_exploring_nodate --file _bibliography/papers.bib  %}
 
 
