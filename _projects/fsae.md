@@ -29,7 +29,7 @@ The chassis subsystem design season starts during the summer before school is ba
 </div>
 
 <div class="row">
-    <div class="col-sm-8 mx-auto">
+    <div class="col-sm-9 mx-auto">
         {% include figure.liquid loading="eager" path="assets/img/iteration_of_chass.png" title="chassis iterations" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
