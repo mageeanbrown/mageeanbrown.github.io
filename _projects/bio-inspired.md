@@ -69,7 +69,7 @@ Next, I conducted two synchronous experiments to study the fluid dynamics of my 
     </div>
 </div>
 <div class="caption">
-    On the left, the force transducer used to approximate the forces on the model synchronously with PIV data collection. In the middle, a view of the first experimental setup (eventually, the tank size was increased) using PIV. On the right, a closer view of the particles used during PIV.
+    On the left, the force transducer used to measure the forces on the model synchronously with PIV data collection. In the middle, a view of the first experimental setup (this is a smaller tank than the one used for final data collection) using PIV. On the right, a closer view of the particles used during PIV.
 </div>
 
 Below, you can see some of the analyzed data from these experiments. The flow fields below show coherent leading-edge vortices (LEVs) that enhance lift generation (see the blue vortices in the figure below).
