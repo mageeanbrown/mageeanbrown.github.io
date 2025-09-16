@@ -39,26 +39,14 @@ The chassis subsystem design season starts during the summer before school is ba
 
 Once the design is complete and our team has passed SES (structural equivalency spreadsheet; this ensures important rules are met), we order our tubes, which are laser-cut out of house. While we wait on the tubes to arrive, we manufacture jigs so the tubes can be properly held in place while we weld. This can be a pretty tricky process, but without good jigs, the welding process is hopeless. For our jigs, we machine posts that hold all of our suspension hardpoints, which in turn hold our chassis tubes together. For areas a bit farther from the heat-affected zone, we add 3D printed jigs to confirm that everything stays in the correct place.
 
-<div class="row align-items-center custom-row text-center">
-  <div class="col">
-    {% include figure.liquid path="assets/img/jig_vertical_image.jpg" title="" class="equal-height rounded z-depth-1" %}
-  </div>
-  <div class="col">
-    {% include figure.liquid path="assets/img/jig_horizontal.jpg" title="" class="equal-height rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm-9 mx-auto">
+        {% include figure.liquid loading="eager" path="assets/img/jig_horizontal.jpg" title="chassis iterations" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-
-<style>
-.equal-height {
-  height: 1550px;   /* set the common height */
-  width: auto;     /* let width scale naturally */
-}
-</style>
-
 <div class="caption">
-  On the left, the jigging process for the front bay of the car. Most of the jig material is aluminum, except for the steel angle mounts that bolt onto the chassis hardpoints. Using steel for this piece ensures that the jig will not deform prior to making the weld, since aluminum has a lower melting point than steel. However, using aluminum for the parts farther from the heat-affected zone is easier for our machining process. On the right, the jigging process for the rear bay. Here, we use a jigging engine, which has all the same mounting points as the actual engine.
+The jigging process for the rear bay. Here, we use a jigging engine in addition to the machined posts, which has all the same mounting points as the actual engine. For the machined posts, most of the material is aluminum for ease of machining; however, the angle mounts that bolt onto the chassis hardpoints are steel. Using steel for these pieces ensures that the jig will not deform before making the weld, since aluminum has a lower melting point than steel.
 </div>
-
 
 After the tubes are jigged, welding is then in full swing. We use tungsten inert gas (TIG) welding. This type of welding takes a lot of practice to get the hang of, which means that it is almost exclusively myself and my co-lead who weld the entire chassis, and any other parts for the car, such as the exhaust system and pedal box. 
 
