@@ -72,7 +72,7 @@ Next, I conducted two synchronous experiments to study the fluid dynamics of my 
     On the left, the force transducer used to approximate the forces on the model synchronously with PIV data collection. In the middle, a view of the first experimental setup (eventually, the tank size was increased) using PIV. On the right, a closer view of the particles used during PIV.
 </div>
 
-Below, you can see some of the analyzed data from these experiments. In the PIV data, there are coherent leading-edge vortices (LEVs) that enhance lift generation.
+Below, you can see some of the analyzed data from these experiments. The flow fields below show coherent leading-edge vortices (LEVs) that enhance lift generation (see the blue vortices in the figure below).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -83,7 +83,7 @@ Below, you can see some of the analyzed data from these experiments. In the PIV 
     A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. The color bar shows the magnitude of vorticity, and streamlines are also plotted.
 </div>
 
-This data shows that force generation is highly dependent on cupping angle. At low cupping angles,  the net force is enhanced because the exopodite and endopodite contributions are in phase and additive. However, at high cupping angles, the opposite effect occurs, and the total force is reduced.
+This data shows that force generation is highly dependent on cupping angle. At low cupping angles, the net force is enhanced because the exopodite and endopodite contributions are in phase and additive. However, at high cupping angles, the opposite effect occurs, and the total force is reduced.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -94,7 +94,7 @@ This data shows that force generation is highly dependent on cupping angle. At l
     A figure of analyzed force data at several cutting angles (zeta). Forces are decomposed into exopodite (blue line) and endopodite (red line) components, and then added for the total force (black dashed line).
 </div>
 
-A manuscript for this project is currently underway to be submitted to a peer-review journal. This page will be updated with the submission soon. In the meantime, check out my full honors below if you are interested in learning more about the project details:
+A manuscript for this project is currently underway and will be submitted to a peer-reviewed journal. This page will be updated with the submission soon. In the meantime, if you are interested in learning more about the project details, check out my full honors below:
 
 <!-- PDF Preview -->
 <div class="row mt-5">
