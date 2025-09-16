@@ -48,7 +48,7 @@ Once the design is complete and our team has passed SES (structural equivalency 
 The jigging process for the front bay. The machined jigs are mostly made from aluminum for ease of machining. However, the angle mounts that bolt onto the chassis hardpoints are steel. Since aluminum has a lower melting point than steel, using steel for these pieces ensures that the jig will not deform before the weld is finished (the chassis tubes are 4130 steel).
 </div>
 
-After the tubes are jigged, welding is then in full swing. We use tungsten inert gas (TIG) welding. This type of welding takes a lot of practice to get the hang of, which means that it is almost exclusively myself and my co-lead who weld the entire chassis, and any other parts for the car, such as the exhaust system and pedal box. 
+After the tubes are jigged, welding is in full swing. We use tungsten inert gas (TIG) welding. This type of welding takes a lot of practice to get the hang of, which means that it is almost exclusively myself and my co-lead who weld the entire chassis, and any other welded parts for the car, such as the exhaust system and pedal box. 
 
 <div class="row align-items-center custom-row">
     <div class="col">
