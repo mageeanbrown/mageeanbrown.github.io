@@ -40,7 +40,7 @@ In the pleopod model, the transition from the power stroke (abduction) to the re
 
 Designing the exopodite was an unexpected challenge. Since the entire model was mounted sideways in the tank, I needed the exopodite to be precisely neutrally buoyant to ensure that passive acuation could occur. I originally used an FDM 3D printer to fabricate the exopodite, and I attempted to tune the infill of the model to achieve the correct buoyancy. However, with a model this small, it was not possible to consistently achieve that same buoyancy at one infill setting. I discovered that the tolerance of the 3D printer was too large for the precision I was trying to achieve. Because of this, I switched to SLA 3D printing, which typically offers better resolution than FDM. However, I again encountered the same issue, where the 3D printer tolerance was too large to achieve consistent buoyancy given the same slicing settings. 
 
-To solve this issue, I designed the exopodite with an internal pocket, which meant that uncured resin would pool up inside the model during printing. After the printing process, I would make a small hole with a needle and iteratively drain resin from the model until the buoyancy was correct. Upon reaching the correct buoyancy, I sealed the small hole and did a complete curing cycle to prevent movement of resin in the model. This also allowed me to choose where the center of buoyancy was located, which I located as close to the mounting joint (near the bearing) as possible, which mitigated the effect of buoyancy on the orientation of the exopodite. In the CAD images below, you can see the cross-section of the exopodite with the internal pocket.
+To solve this issue, I designed the exopodite with an internal pocket, which meant that uncured resin would pool up inside the model during printing. After the printing process, I would make a small hole with a needle and iteratively drain resin from the model until the buoyancy was correct. Upon reaching the correct buoyancy, I sealed the small hole and conducted a curing cycle to prevent resin movement within the model. This also allowed me to choose where the center of buoyancy was located, which I put as close to the mounting joint (near the bearing) as possible, thus mitigating the effect of buoyancy on the orientation of the exopodite. In the CAD images below, you can see the cross-section of the exopodite with the internal pocket.
 
 <div class="row align-items-center custom-row">
     <div class="col">
@@ -56,7 +56,7 @@ To solve this issue, I designed the exopodite with an internal pocket, which mea
 
 Once the pleopod model was complete, I programmed it to simulate accurate shrimp swimming kinematics. Using data from biological observations, I recreated accurate kinematics by modulating the position of a servo motor attached to the model. I verified the model kinematics by recording the robot's movement with a high-speed Photron camera and then comparing the results to the biological data. During this data analysis step, I used an open-source MATLAB tracking software commonly used in biomechanics, called DLTdv8.
 
-Next, I conducted two synchronous experiments to study the fluid dynamics of my robot's swimming: particle image velocimetry (PIV) and force measurements. PIV is an optical technique used to quantify flow fields, meaning that fluid velocity, vorticity, and more can be quantified at many points within the field of view of your camera. I used 2D PIV, which means that I only looked at one plane within my tank. This plane of interest is illuminated with a laser sheet. Particles (here, silver-covered glass beads, 10 microns in diameter) are added to the fluid and reflect the laser light for the analysis software to detect. Force measurement was conducted with a six-axis force transducer, with a resolution of 1/320 N. The transducer was mounted between the servo and the robot.
+Next, I conducted two synchronous experiments to study the fluid dynamics of my robot's swimming: particle image velocimetry (PIV) and force measurements. PIV is an optical technique used to quantify flow fields, meaning that fluid velocity, vorticity, and other variables can be found at many points within the field of view of your camera. I used 2D PIV, meaning that I only analyzed one plane within my tank. This plane of interest is illuminated with a laser sheet. Particles (here, silver-covered glass beads, 10 microns in diameter) were added to the fluid and reflect the laser light, which can be detected in the analysis software. Force measurement was conducted with a six-axis force transducer with a resolution of 1/320 N. The transducer was mounted between the servo and the robot.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/force_transducer.jpg" title="" class="img-fluid rounded z-depth-1" %}
@@ -69,19 +69,33 @@ Next, I conducted two synchronous experiments to study the fluid dynamics of my 
     </div>
 </div>
 <div class="caption">
-    On the left, the force transducer used to approximate the forces on the model synchronously with PIV data collection. In the middle, a view of the first experimental setup (eventually the tank size was increased) using PIV. On the right, a closer view of the particles used during PIV. These particles are illuminated with a laser and tracked using a cross-correlation algorithm during analysis of video taken during experiments.
+    On the left, the force transducer used to approximate the forces on the model synchronously with PIV data collection. In the middle, a view of the first experimental setup (eventually, the tank size was increased) using PIV. On the right, a closer view of the particles used during PIV.
 </div>
+
+Below, you can see some of the analyzed data from these experiments. In the PIV data, there are coherent leading-edge vortices (LEVs) that enhance lift generation.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/vorticity_fields.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. The color bar shows the magnitude of vorticity, and streamlines are also plotted. There are coherent leading-edge vortices (LEVs) that enhance lift generation.
+    A figure of analyzed PIV data at a cupping angle (zeta) of 35 degrees, showing the points of maximum thrust (left) and lift (right) throughout a stroke cycle. The color bar shows the magnitude of vorticity, and streamlines are also plotted.
 </div>
 
+This data shows that force generation is highly dependent on cupping angle. At low cupping angles,  the net force is enhanced because the exopodite and endopodite contributions are in phase and additive. However, at high cupping angles, the opposite effect occurs, and the total force is reduced.
 
-If you are interested in reading my full honors thesis, it is available below:
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Re968_ExoEndo_Total_Forces.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A figure of analyzed force data at several cutting angles (zeta). Forces are decomposed into exopodite (blue line) and endopodite (red line) components, and then added for the total force (black dashed line).
+</div>
+
+A manuscript for this project is currently underway to be submitted to a peer-review journal. This page will be updated with the submission soon. In the meantime, check out my full honors below if you are interested in learning more about the project details:
+
 <!-- PDF Preview -->
 <div class="row mt-5">
   <div class="col-12">
