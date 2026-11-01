@@ -4,7 +4,7 @@ title: Bicycle Frame Building
 description: Designing and fabricating a bicycle frame from scratch
 img: assets/img/frame_jig.jpg
 importance: 3
-category: engineering
+category: general engineering
 related_publications: false
 ---
 
