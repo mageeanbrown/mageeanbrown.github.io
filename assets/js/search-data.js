@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-projects",
+          title: "Projects",
+          description: "A growing collection of my projects split into two categories, fluid dynamics and general engineering. Although there is overlap between these categories, the fluid dynamics category is more research-based, while general engineering focuses on the design, fabrication, and testing of a physical object. The projects are roughly ordered by time spent, with the project involving the most time at the top and the least time at the bottom.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
           title: "CV",
           description: "Click on the pdf to the right to download and view my CV.",
           section: "Navigation",
