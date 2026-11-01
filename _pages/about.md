@@ -61,8 +61,10 @@ latest_posts:
 
 </div>
 
-Hello! My name is Mageean, or Maggie for short. I am currently conducting research in the Graduate Aerospace Laboratories at Caltech (GALCIT). As an experimental researcher with a passion for side projects, I have extensive experience in fabrication. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. In my Master's program, I completed the fluid dynamics and control systems track. 
+Hello! My name is Mageean, or Maggie for short. I am currently lead testing at Fourth Power, an MIT-based startup that creates "thermal batteries". We store energy by heating up graphite blocks in an inert, insulated environment. When energy is needed as electricity, we use thermophotovoltaic (TPV) cells to convert heat into electricity. The name Fourth Power comes from the Stefan-Boltzmann Law, which says that the total energy radiated from an object scales with temperature to the fourth power. Therefore, the hotter the graphite gets, the more energy-dense our batteries are. Because of this, my experiments often reach temperatures up to 1800 degrees Cesius!
 
-In the Dabiri Lab at Caltech, I study vortex interactions between biohybrid jellyfish. Eventually, this will help enable low-cost and scalable ocean exploration and monitoring technology. To learn more about my other past experiences, check out my [projects](https://mageeanbrown.github.io/projects/) and [CV](https://mageeanbrown.github.io/cv/)
+I have a research background focused in experimental fluid dynamics, specifically in the underwater propulsion and sensor development realm. I received my M.S. in Aeronautics from Caltech and my B.S. in Mechanical Engineering from Brown University. In my Master's program, I completed the fluid dynamics and control systems track. 
+
+In addition to research, I love hands-on projects. From being a subsystem lead on Brown's FSAE team to building bicycles from scratch, I've developed a strong background in fabrication. To learn more about my past experiences, check out my [projects](https://mageeanbrown.github.io/projects/) and [CV](https://mageeanbrown.github.io/cv/).
 
 
