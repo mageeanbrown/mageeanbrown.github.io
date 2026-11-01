@@ -72,10 +72,14 @@ After welding, there was still a lot of work to do, such as painting the frame, 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/alignment.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/alignment.jpeg"
+             class="img-fluid rounded z-depth-1"
+             alt="Bike frame clamped to a table for alignment">
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/bridge.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img src="/assets/img/bridge.jpeg"
+             class="img-fluid rounded z-depth-1"
+             alt="Completed bike during a bikepacking trip across Vermont">
     </div>
 </div>
 
