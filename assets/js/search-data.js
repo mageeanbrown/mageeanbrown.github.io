@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "Projects",
-          description: "A growing collection of my engineering projects. The projects are roughly ordered by time spent, with the project involving the most time at the top and the least time at the bottom. The last &#39;project&#39; consists of smaller fabrication projects, most taking anywhere from a few days to a few weeks.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "CV",
           description: "Click on the pdf to the right to download and view my CV.",
           section: "Navigation",
