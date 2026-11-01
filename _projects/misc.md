@@ -4,7 +4,7 @@ title: Miscellaneous Mini-Projects
 description: Machining, woodworking, and 3D printing
 img: assets/img/welded_sculpture.jpg
 importance: 7
-category: engineering
+category: general engineering
 ---
 
 This is a collection of various small projects that I've done throughout the years (at least the ones I took pictures of).
