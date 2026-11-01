@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my engineering projects. The projects are roughly ordered by time spent, with the project involving the most time at the top and the least time at the bottom. The last 'project' consists of smaller fabrication projects, most taking anywhere from a few days to a few weeks.
+description: A growing collection of my projects split into two categories: fluid dynamics and general engineering. Although there is overlap between these categories, the fluid dynamics category is more research-based, while general engineering focuses on the design, fabrication, and testing of a physical object. The projects are roughly ordered by time spent, with the project involving the most time at the top and the least time at the bottom. 
 nav: true
 nav_order: 3
-display_categories: [engineering, other]
+display_categories: [fluid dynamics, general engineering]
 horizontal: false
 ---
 
