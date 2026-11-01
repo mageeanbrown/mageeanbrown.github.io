@@ -4,7 +4,7 @@ title: High Reynolds Number Pipe Flow
 description: Studying the laminar to turbulent transition in pipe flows.
 img: assets/img/pipe_flow.jpg
 importance: 5
-category: engineering
+category: fluid dynamics
 ---
 This was a quarter-long project that I completed with one other classmate in my Experimental Methods class at Caltech.
 
