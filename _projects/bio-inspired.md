@@ -4,7 +4,7 @@ title: Bio-inspired Robotics and Fluid Dynamics
 description: Studying the hydrodynamics of an underwater robot with a shrimp-inspired design
 img: assets/img/4.jpg
 importance: 1
-category: engineering
+category: fluid dynamics
 related_publications: 
   - brown_analysis_2023
   - oliveira_pedro_dos_santos_exploring_nodate
