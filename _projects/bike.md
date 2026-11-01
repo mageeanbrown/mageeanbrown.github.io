@@ -53,7 +53,7 @@ A year later, and after welding a racecar (see more about this [here](/projects/
     The jig in action. Creating the jig took much longer than the actual welding process, but is essential for achieving precise frame geometry and making strong welds. The components I machined to hold the tubes are made from aluminum and are mounted on a T-slot aluminum extrusion, allowing the entire system to be adjustable for future frames.
 </div>
 
-Below, you'll see some of my more recent welds (getting better, but still more practice to be done!) and the frame post-welding/brazing. The final steps will involve painting the frame, facing and reaming the frame (to remove distortion from welding in important areas, such as the bottom bracket shell, head tube, and seat tube), and buying/installing the remaining parts to make the bike ready for riding.
+Below, you'll see some of my more recent welds (getting better, but still more practice to be done!) and the frame post-welding/brazing.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -66,4 +66,19 @@ Below, you'll see some of my more recent welds (getting better, but still more p
 
 <div class="caption">
     My welding progress on the left and the fully welded frame on the right.
+</div>
+
+After welding, there was still a lot of work to do, such as painting the frame, performing a frame alignment, and procuring all the parts needed to complete the bike. When I finally completed the bike, I took it for a 140-mile solo bikepacking trip across Vermont. I loaded the frame with bags and camping supplies, and it handled really well! It was a really rewarding way to wrap up a project that was almost 3 years in the making.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/alignment.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/bridge.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    On the left, the painted frame clamped down to a table so I could perform the alignment, which removes distortion that occurs during welding. On the right, a picture of the completed bike during my bikepacking trip across Vermont.
 </div>
